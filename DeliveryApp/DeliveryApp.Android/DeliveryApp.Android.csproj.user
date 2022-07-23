@@ -4,5 +4,6 @@
     <SelectedDevice>INFINIX MOBILITY LIMITED Infinix X683</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <ActiveDebugProfile>INFINIX MOBILITY LIMITED Infinix X683</ActiveDebugProfile>
+    <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
   </PropertyGroup>
 </Project>

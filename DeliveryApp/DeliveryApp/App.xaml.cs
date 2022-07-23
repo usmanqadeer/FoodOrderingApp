@@ -1,4 +1,6 @@
-﻿using DeliveryApp.Views;
+﻿using DeliveryApp.Helpers;
+using DeliveryApp.Models;
+using DeliveryApp.Views;
 using System;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -8,6 +10,19 @@ namespace DeliveryApp
 {
     public partial class App : Application
     {
+        private static CreateCartTable sqlDbConnection;
+        public static CreateCartTable Connection
+        {
+            get
+            {
+                if (sqlDbConnection == null)
+                {
+                    sqlDbConnection = new CreateCartTable();
+                }
+                return sqlDbConnection;
+            }
+        }
+
         public App()
         {
             Device.SetFlags(new string[] 
@@ -18,7 +33,7 @@ namespace DeliveryApp
             InitializeComponent();
 
             //  MainPage = new LoginView();
-             MainPage = new NavigationPage(new SettingsPage());
+            //MainPage = new NavigationPage(new SettingsPage());
 
 
            string uname = Preferences.Get("Username", string.Empty);

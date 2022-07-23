@@ -78,7 +78,7 @@ namespace DeliveryApp.ViewModels
         {
             if (SearchText == null)
             { 
-                await Application.Current.MainPage.DisplayAlert("erreur", "la barre de recherche ne peut-être vide", "ok");
+                await Application.Current.MainPage.DisplayAlert("Error", "Enter the item name for search.", "ok");
             }
             else 
             {

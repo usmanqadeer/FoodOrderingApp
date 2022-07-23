@@ -22,8 +22,8 @@
     
     <ContentPage.Content>
         <Grid>
-            <MediaElement Source="ms-appx:///cook.mp4"  AutoPlay="True" HorizontalOptions="FillAndExpand"  Aspect="Fill"
-                         VerticalOptions="FillAndExpand" IsLooping="True"/>
+            <Image Source="https://uploads-ssl.webflow.com/5e233dd1daefb852224bf74a/607db78efff5d1c15b105661_3403156.jpg"   HorizontalOptions="FillAndExpand"  Aspect="AspectFill"
+                         VerticalOptions="FillAndExpand" />
             <Grid Padding="20" VerticalOptions="Center" Opacity="0.6">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -41,7 +41,7 @@
                             <Image Source="{FontImage FontFamily=FontAwesome, Glyph={x:Static helpers:IconFont.AccountCircle}, Color=Black , Size=30 }"   
                                    HorizontalOptions="Start" BackgroundColor="Transparent"/>
 
-                            <Entry x:Name="EntryUsername" Placeholder="Entrer le nom d'utilisateur"
+                            <Entry x:Name="EntryUsername" Placeholder="Email"
                                    Text="{Binding Username}" HorizontalOptions="FillAndExpand">
                                 <Entry.Behaviors>
                                     <behaviors:NotNullBehavior x:Name="UsernameNN"/>
@@ -54,7 +54,7 @@
                             <Image Source="{FontImage FontFamily=FontAwesome, Glyph={x:Static helpers:IconFont.Lock}, Color=Black , Size=30 }"   
                                    HorizontalOptions="Start" BackgroundColor="Transparent"/>
 
-                            <Entry x:Name="EntryPassword"  Placeholder="Entrer le mot de passe"
+                            <Entry x:Name="EntryPassword"  Placeholder="Password"
                                    Text="{Binding Passeword}" IsPassword="True"
                                    BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
                                 <Entry.Behaviors>
@@ -87,7 +87,7 @@
                         <Label Text="I agree" TextColor="White" VerticalOptions="Center" FontAttributes="Bold"/>
 
                     </StackLayout>
-                    <Button Text="S'enregistrer" HorizontalOptions="Center" BackgroundColor="DarkOrange"
+                    <Button Text="Registrer" HorizontalOptions="Center" BackgroundColor="DarkOrange"
                         TextColor="White" WidthRequest="200" HeightRequest="60" CornerRadius="20"
                         Command="{Binding RegisterCommand}" >
                         <Button.Triggers>

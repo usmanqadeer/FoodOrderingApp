@@ -88,10 +88,10 @@ namespace DeliveryApp.ViewModels
 
                 if (Result)
                 {
-                   await Application.Current.MainPage.DisplayAlert("Succès", "Utilisateur enregister", "OK");
+                   await Application.Current.MainPage.DisplayAlert("Succès", "Allright registraion succesfully.", "OK");
                 } else
                 {
-                    await Application.Current.MainPage.DisplayAlert("Error", "Il existe déja un utilisateur avec ce nom", "OK");
+                    await Application.Current.MainPage.DisplayAlert("Error", "Registraion not succesfully try again", "OK");
                 }
             }catch(Exception ex)
             {
@@ -122,7 +122,7 @@ namespace DeliveryApp.ViewModels
                 }
                 else
                 {
-                    await Application.Current.MainPage.DisplayAlert("Error", "Nom d'utilisateur ou mot de passe incorrect ", "OK");
+                    await Application.Current.MainPage.DisplayAlert("Error", "Incorrect user name password!", "OK");
                 }
             }
             catch (Exception ex)
