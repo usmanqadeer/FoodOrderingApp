@@ -36,6 +36,8 @@
             <ImageButton Source="{FontImage FontFamily=FontAwesome,
                 Glyph={x:Static helpers:IconFont.ArrowLeft}, Size=30, Color=White}"
                 Grid.Row="0" HorizontalOptions="Start" Aspect="AspectFit"
+                BackgroundColor="Silver"    Opacity="0.5"     HeightRequest="40" WidthRequest="40"
+                         CornerRadius="20"
                 VerticalOptions="Start" Margin="10,30" Clicked="ImageButton_Clicked" />
 
             <pancake:PancakeView Grid.Row="1" BackgroundColor="WhiteSmoke"
@@ -46,7 +48,7 @@
                           Header="" HasUnevenRows="True">
                     <ListView.HeaderTemplate>
                         <DataTemplate>
-                            <Grid>
+                            <Grid Margin="0,15,0,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="*" />
@@ -111,10 +113,12 @@
             </pancake:PancakeView>
 
             <Label Text="{Binding TotalCost, StringFormat='Total Cost : {0:c}'}"
+                   Margin="0,0,10,0"
                    Grid.Row="2" HorizontalTextAlignment="End" FontSize="Subtitle"
                    TextColor="WhiteSmoke"/>
 
             <Button Text="Place Order" Grid.Row="3" TextColor="White"
+                    Margin="0,0,0,10"
                     Command="{Binding PlaceOrdersCommand}"
                     HorizontalOptions="Center" CornerRadius="20"
                     />

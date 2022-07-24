@@ -10,6 +10,7 @@
              xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
              xmlns:vm="clr-namespace:DeliveryApp.ViewModels"
              Visual="Material"
+             BackgroundColor="Green"
              x:Class="DeliveryApp.Views.OrdersView">
     <ContentPage.Content>
         <Grid>
@@ -18,12 +19,12 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <ImageButton Source="{FontImage FontFamily=FontAwesome,
+            <ImageButton CornerRadius="20" HeightRequest="40" WidthRequest="40" BackgroundColor="Silver" Opacity="0.5" Source="{FontImage FontFamily=FontAwesome,
                 Glyph={x:Static helpers:IconFont.ArrowLeft},Size=30, Color=White}"
                 Grid.Row="0" HorizontalOptions="Start" Aspect="AspectFit"
                 VerticalOptions="Start" Margin="10,30" Clicked="ImageButton_Clicked" />
 
-            <Label Text="Burger Queen" FontSize="40" TextColor="WhiteSmoke"
+            <Label Text="Burger Queen" Margin="10,30,0,0" FontSize="40" TextColor="WhiteSmoke"
                    FontFamily="CabinSketch" HorizontalOptions="Center" VerticalOptions="Start" />
 
             <Label x:Name="LabelName" FontSize="Subtitle" Margin="20,0" TextColor="WhiteSmoke"
@@ -37,7 +38,7 @@
                     <Label x:Name="LabelOrderID" TextColor="Purple"
                            FontSize="Subtitle" />
 
-                    <Button Text="Voir tous les produits" x:Name="voirProduits"
+                    <Button Text="Wiew all products" x:Name="voirProduits"
                             WidthRequest="200"
                             BackgroundColor="Purple"
                             HorizontalOptions="Center"

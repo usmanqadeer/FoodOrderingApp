@@ -9,19 +9,19 @@
     ".NETStandard,Version=v2.0/": {
       "DeliveryApp/1.0.0": {
         "dependencies": {
-          "FirebaseDatabase.net": "4.0.4",
+          "FirebaseDatabase.net": "4.0.7",
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1238-pre3",
-          "Xamarin.Forms.PancakeView": "2.0.1.707-beta",
-          "Xamarin.Forms.Visual.Material": "4.8.0.1238-pre3",
-          "sqlite-net-pcl": "1.7.335"
+          "Xamarin.Essentials": "1.7.3",
+          "Xamarin.Forms": "5.0.0.2478",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
+          "Xamarin.Forms.Visual.Material": "5.0.0.2478",
+          "sqlite-net-pcl": "1.8.116"
         },
         "runtime": {
           "DeliveryApp.dll": {}
         }
       },
-      "FirebaseDatabase.net/4.0.4": {
+      "FirebaseDatabase.net/4.0.7": {
         "dependencies": {
           "LiteDB": "4.1.4",
           "Newtonsoft.Json": "11.0.2",
@@ -61,50 +61,50 @@
           }
         }
       },
-      "sqlite-net-pcl/1.7.335": {
+      "sqlite-net-pcl/1.8.116": {
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.3"
+          "SQLitePCLRaw.bundle_green": "2.0.4"
         },
         "runtime": {
           "lib/netstandard2.0/SQLite-net.dll": {
-            "assemblyVersion": "1.7.335.0",
-            "fileVersion": "1.7.335.0"
+            "assemblyVersion": "1.8.116.0",
+            "fileVersion": "1.8.116.0"
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.0.3": {
+      "SQLitePCLRaw.bundle_green/2.0.4": {
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.3",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.3",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.3"
+          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
-            "assemblyVersion": "2.0.3.851",
-            "fileVersion": "2.0.3.851"
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
           }
         }
       },
-      "SQLitePCLRaw.core/2.0.3": {
+      "SQLitePCLRaw.core/2.0.4": {
         "dependencies": {
           "System.Memory": "4.5.3"
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
-            "assemblyVersion": "2.0.3.851",
-            "fileVersion": "2.0.3.851"
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
           }
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.3": {},
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.3": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {},
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.3"
+          "SQLitePCLRaw.core": "2.0.4"
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
-            "assemblyVersion": "2.0.3.851",
-            "fileVersion": "2.0.3.851"
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
           }
         }
       },
@@ -235,7 +235,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.7.3": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -246,26 +246,26 @@
           }
         }
       },
-      "Xamarin.Forms/4.8.0.1238-pre3": {
+      "Xamarin.Forms/5.0.0.2478": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.312"
+            "fileVersion": "5.0.0.927"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.312"
+            "fileVersion": "5.0.0.927"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.312"
+            "fileVersion": "5.0.0.927"
           }
         }
       },
-      "Xamarin.Forms.PancakeView/2.0.1.707-beta": {
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
-          "Xamarin.Forms": "4.8.0.1238-pre3"
+          "Xamarin.Forms": "5.0.0.2478"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
@@ -274,9 +274,9 @@
           }
         }
       },
-      "Xamarin.Forms.Visual.Material/4.8.0.1238-pre3": {
+      "Xamarin.Forms.Visual.Material/5.0.0.2478": {
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1238-pre3"
+          "Xamarin.Forms": "5.0.0.2478"
         }
       }
     }
@@ -287,12 +287,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FirebaseDatabase.net/4.0.4": {
+    "FirebaseDatabase.net/4.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XkdKzFT4rU7x1GEO3v0bGmLT7eXDZ/kHa+77mCHn9LP2KjCEQqt1R5tIctwmlaOEVy66Eb4QxHJ5rjaG8Et1/A==",
-      "path": "firebasedatabase.net/4.0.4",
-      "hashPath": "firebasedatabase.net.4.0.4.nupkg.sha512"
+      "sha512": "sha512-yj8J5al66pCXRibNsK0K1wB1ZsPeCJCnwRVfwCcd6ZQ5tbwouObt0hgp+LmzKY90bLfQJuwmnLpKzVYGwD/6xA==",
+      "path": "firebasedatabase.net/4.0.7",
+      "hashPath": "firebasedatabase.net.4.0.7.nupkg.sha512"
     },
     "LiteDB/4.1.4": {
       "type": "package",
@@ -329,40 +329,40 @@
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
-    "sqlite-net-pcl/1.7.335": {
+    "sqlite-net-pcl/1.8.116": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0A9YNPbp66aB+Sitxmh9lq1KDtD4+EBPfdtnYN8WenvQqh5dNgMxUV7kaEG6EXYTi4zBxcsDKpyYJzbViWJXtw==",
-      "path": "sqlite-net-pcl/1.7.335",
-      "hashPath": "sqlite-net-pcl.1.7.335.nupkg.sha512"
+      "sha512": "sha512-W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
+      "path": "sqlite-net-pcl/1.8.116",
+      "hashPath": "sqlite-net-pcl.1.8.116.nupkg.sha512"
     },
-    "SQLitePCLRaw.bundle_green/2.0.3": {
+    "SQLitePCLRaw.bundle_green/2.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QgevRdYSy/MtL1TDdWuhoCH5cpBPZYUZd8h/WqgiLGXDa8e93Fv4/SE812SDCdjTb2+6s8SIwSLRq0z2bUeieg==",
-      "path": "sqlitepclraw.bundle_green/2.0.3",
-      "hashPath": "sqlitepclraw.bundle_green.2.0.3.nupkg.sha512"
+      "sha512": "sha512-ubFgOHDmtTcq2LU7Ss10yHnFVMm2rFVr65Ggi+Mh514KjGx4pal98P2zSvZtWf3wbtJw6G1InBgeozBtnpEfKQ==",
+      "path": "sqlitepclraw.bundle_green/2.0.4",
+      "hashPath": "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512"
     },
-    "SQLitePCLRaw.core/2.0.3": {
+    "SQLitePCLRaw.core/2.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9LO3qT7tP+0qBAQxg/PGLHPcsKri4H2zIiiMEg+7EGrnBbuUnJg1tcfKiiqFtRp74kZSAV6N0ZeSGYiodqYnoQ==",
-      "path": "sqlitepclraw.core/2.0.3",
-      "hashPath": "sqlitepclraw.core.2.0.3.nupkg.sha512"
+      "sha512": "sha512-4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
+      "path": "sqlitepclraw.core/2.0.4",
+      "hashPath": "sqlitepclraw.core.2.0.4.nupkg.sha512"
     },
-    "SQLitePCLRaw.lib.e_sqlite3/2.0.3": {
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VSTQBlcPOcqCCxXnXwo8N2msQuE/Hd6oKpZ5Nn022tq5/+liyx5uEYNw6Hj8logTdkuq+3Nlq7qYQhraFWn1wg==",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.0.3",
-      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512"
+      "sha512": "sha512-oetvmtDZOE4Nnrtxd8Trapl9geBiu0rDCUXff46qGYjnUwzaU1mZ3OHnfR402tl32rx8gBWg3n5OBRaPJRbsGw==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512"
     },
-    "SQLitePCLRaw.provider.e_sqlite3/2.0.3": {
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-f2bwfPhD91dJ6KnjOw01KDT68zl7qpeX4+lC0mmKa+eA91Huya8hdNan73B3q7jEDLMFU/dkv7l5wqrqGB4QoQ==",
-      "path": "sqlitepclraw.provider.e_sqlite3/2.0.3",
-      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512"
+      "sha512": "sha512-YiqCw+PfiPIuX2aZnEqt1ya5ldGm4ParIqzaRXtztDu8mdzZxOXVYOrKZazXg6nbwYbCP1H5mOYGmBFQ2W0M5g==",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512"
     },
     "System.Buffers/4.4.0": {
       "type": "package",
@@ -462,33 +462,33 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.5.3.2": {
+    "Xamarin.Essentials/1.7.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
-      "path": "xamarin.essentials/1.5.3.2",
-      "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
+      "sha512": "sha512-b6NfxOfkmMGN54a4OcV/D7KXclWWqFwgixMPzlAku3kfKgUBGW4vBdNaujIBmk57NbGpWB2IS78ek0gDHNKwoQ==",
+      "path": "xamarin.essentials/1.7.3",
+      "hashPath": "xamarin.essentials.1.7.3.nupkg.sha512"
     },
-    "Xamarin.Forms/4.8.0.1238-pre3": {
+    "Xamarin.Forms/5.0.0.2478": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oYFJHLxs0YkcPdXZuhxOzSuJzJQpZCW+ZunxPWWsqjA8A6nNZ5Mr8it5PUQliCFEzDkbBKKOm3OBi0U1Q3elyQ==",
-      "path": "xamarin.forms/4.8.0.1238-pre3",
-      "hashPath": "xamarin.forms.4.8.0.1238-pre3.nupkg.sha512"
+      "sha512": "sha512-UeOnndxByPTpbExq0jPL5zKYqtHN9ldsgjQfUk9XF1pWSJUIakF3nJkq/tCgCVp5E1yp9Eecgqcthzy6llKiGg==",
+      "path": "xamarin.forms/5.0.0.2478",
+      "hashPath": "xamarin.forms.5.0.0.2478.nupkg.sha512"
     },
-    "Xamarin.Forms.PancakeView/2.0.1.707-beta": {
+    "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4K8N4oyFxlWHISMekGNYrWFsuhQ+ZaJqa5qwzaI1Wbb2Lk9C+18qi8/gxfB0EcdSW5pMrLbcaAVKR0Kvz4Jayg==",
-      "path": "xamarin.forms.pancakeview/2.0.1.707-beta",
-      "hashPath": "xamarin.forms.pancakeview.2.0.1.707-beta.nupkg.sha512"
+      "sha512": "sha512-GghetVBkMzzb6L1Ul3SH9JnHIvdmhgjRacAQaD5IUGMr2yxFtSeB0lRYTT0QjNJFK6TSgyh/lDwqMSaCMBjbMg==",
+      "path": "xamarin.forms.pancakeview/2.3.0.763-beta",
+      "hashPath": "xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512"
     },
-    "Xamarin.Forms.Visual.Material/4.8.0.1238-pre3": {
+    "Xamarin.Forms.Visual.Material/5.0.0.2478": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DTJwW3iXLpwUQW0VYgYYtZC2FcpSEA2GAst1zYXCKfXUgy2O9tUTpCybNfeg+f0B+KxD93okjVAay3KSnW5kSQ==",
-      "path": "xamarin.forms.visual.material/4.8.0.1238-pre3",
-      "hashPath": "xamarin.forms.visual.material.4.8.0.1238-pre3.nupkg.sha512"
+      "sha512": "sha512-R4tDO9S+Rv4ShqT4voIYR0duG4RUKnyX6S2k3aDJARCLYgXC0mGrTQ5JzxPVl4XS7nB8u6AvQmRNGqi3Y8QgxA==",
+      "path": "xamarin.forms.visual.material/5.0.0.2478",
+      "hashPath": "xamarin.forms.visual.material.5.0.0.2478.nupkg.sha512"
     }
   }
 }

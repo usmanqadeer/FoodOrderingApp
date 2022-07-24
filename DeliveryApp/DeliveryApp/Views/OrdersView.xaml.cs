@@ -15,7 +15,7 @@ namespace DeliveryApp.Views
         public OrdersView(String id)
         {
             InitializeComponent();
-            LabelName.Text = "Bienvenu" + Preferences.Get("Username", "Invité")+",";
+            LabelName.Text = "" + Preferences.Get("Username", "Invité")+",";
             LabelOrderID.Text= id;
         }
  

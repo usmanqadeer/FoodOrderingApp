@@ -30,7 +30,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <StackLayout>
-                    <Label Text="Buger Queen" FontFamily="CabinSketch" TextColor="White" FontAttributes="Bold" FontSize="60" HorizontalOptions="Center"/>
+                    <Label Text="Buger Queen" FontFamily="CabinSketch" TextColor="White" FontAttributes="Bold" FontSize="50" HorizontalOptions="Center"/>
                     <Label Text="Login Form" FontFamily="CabinSketch" TextColor="Purple" FontSize="40" HorizontalOptions="Center" />
                 
             </StackLayout>

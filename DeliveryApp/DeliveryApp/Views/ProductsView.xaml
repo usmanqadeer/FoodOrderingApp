@@ -46,7 +46,6 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-
             <Grid Grid.Row="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
@@ -56,31 +55,31 @@
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" /> 
+                    <RowDefinition Height="Auto"/> 
                 </Grid.RowDefinitions>
-                <Label Text="Bon arrivé" Grid.Row="0" Grid.Column="0"   Style="{StaticResource SecondaryLabel}"  />
-                <Label Text="{Binding Username}" Grid.Row="1" Grid.Column="0" FontSize="20" FontAttributes="Bold"   Style="{StaticResource PrimaryLabel}" />
+                <Label Text="Wellcome" Grid.Row="0" Margin="10,10,0,0" FontSize="20" Grid.Column="0"  FontAttributes="Bold"  Style="{StaticResource SecondaryLabel}"  />
+                <Label Text="{Binding Username}" Margin="10,0,0,0" Grid.Row="1" Grid.Column="0" FontSize="10" FontAttributes="Bold"   Style="{StaticResource PrimaryLabel}" />
 
                 <ImageButton Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" BackgroundColor="Transparent"
                              Source="{FontImage FontFamily=FontAwesome,
-                    Glyph={x:Static helpers:IconFont.ViewList}, Size=40,  Color=Purple}"
+                    Glyph={x:Static helpers:IconFont.ViewList}, Size=30,  Color=Purple}"
                              Margin="0,0,10,0" HorizontalOptions="End"
                              Command="{Binding OrdersHistoryCommand}"/>
 
-                <Label Text="{Binding UserCartItemsCount}" FontSize="Subtitle"  TextColor="{DynamicResource SecondaryTextColor}"
+                <Label Text="{Binding UserCartItemsCount}" FontSize="Subtitle" Margin="0,5,0,0" TextColor="{DynamicResource DarkPrimaryTextColor}"
                        Grid.Row="0" Grid.Column="2" Grid.RowSpan="2"
                       
                        HorizontalTextAlignment="End" VerticalTextAlignment="Start" />
 
                 <ImageButton Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" BackgroundColor="Transparent"
                              Source="{FontImage FontFamily=FontAwesome,
-                    Glyph={x:Static helpers:IconFont.Shopping}, Size=40, Color=LightGreen}"
+                    Glyph={x:Static helpers:IconFont.Shopping}, Size=30, Color=LightGreen}"
                              Margin="0,0,10,0" HorizontalOptions="End"
                              Command="{Binding ViewCartCommand}" />
 
                 <ImageButton Grid.Row="0" Grid.Column="3" Grid.RowSpan="2" BackgroundColor="Transparent"
                              Source="{FontImage FontFamily=FontAwesome,
-                    Glyph={x:Static helpers:IconFont.Logout}, Size=40, Color=IndianRed}"
+                    Glyph={x:Static helpers:IconFont.Logout}, Size=25, Color=IndianRed}"
                              Margin="0,0,10,0" HorizontalOptions="End"
                              Command="{Binding LogoutCommand}"/>
 
@@ -90,12 +89,12 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <SearchBar Grid.Column="0" Placeholder="Recherche" 
+                <SearchBar Grid.Column="0" Placeholder="Search" 
                            TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor},
                     Dark={StaticResource DarkPrimaryTextColor}}" HorizontalOptions="Fill" 
                            Text="{Binding SearchText}"/>
                 <ImageButton Grid.Column="1"  BackgroundColor="Transparent" Source="{FontImage FontFamily=FontAwesome,
-                    Glyph={ x:Static helpers:IconFont.SearchWeb }, Size=40, Color=Lavender } "
+                    Glyph={ x:Static helpers:IconFont.SearchWeb }, Size=30, Color=Lavender } "
                              Margin="0,0,10,0" HorizontalOptions="End"
                              Command="{Binding SearchViewCommand }" />
             </Grid>
@@ -104,27 +103,30 @@
         
             <CollectionView ItemsSource="{Binding Categories}"
                             Margin="0,20"
-                            HeightRequest="125" VerticalOptions="FillAndExpand"
+                            BackgroundColor="Transparent"
+                            HeightRequest="100" VerticalOptions="FillAndExpand"
                             HorizontalScrollBarVisibility="Never"
                             ItemsLayout="HorizontalList" SelectionMode="Single"
                             SelectionChanged="CollectionView_SelectionChanged"                
                             Grid.Row="2">
             <CollectionView.ItemTemplate>
-                <DataTemplate>
-                        <StackLayout Padding="5,0,12,0">
-                            <Frame HeightRequest="50" HasShadow="False"
+                <DataTemplate >
+                        <StackLayout Padding="5,0,12,0" HeightRequest="25">
+                            <Frame HeightRequest="25" HasShadow="False"
+                                   IsClippedToBounds="True"
+                                   Visual="Material"
                                   BackgroundColor="{DynamicResource DefaultPrimaryColor}"
                                    CornerRadius="10">
-                            <Image Source="{Binding ImageUrl}"
+                                <Image Source="{Binding ImageUrl}"
                                        />
-                        </Frame>
+                            </Frame>
                             <Label Text="{Binding CategoryName}"  Style="{StaticResource SecondaryLabel}" 
                                    HorizontalTextAlignment="Center" />
-                    </StackLayout>
-                </DataTemplate>
+                        </StackLayout>
+                    </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-            <Label Grid.Row="3" Text="Latest Items"  FontSize="25" FontAttributes="Bold" Style="{StaticResource PrimaryLabelHeader}"  />  
+            <Label Grid.Row="3" Text="Latest Items" Margin="10,0,0,0"  FontSize="20" FontAttributes="Bold" Style="{StaticResource PrimaryLabelHeader}"  />  
             
                 <CollectionView x:Name="CollectionViewLatestItem" ItemsSource="{Binding LatestItems}"
                             VerticalOptions="Start"  Grid.Row="4"  Margin="10,10,10,0" HorizontalOptions="Center"
@@ -134,7 +136,7 @@
                             >
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <StackLayout >
+                            <StackLayout Margin="0,0,0,30" >
                                 <Grid>
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto" />
@@ -147,15 +149,15 @@
                                           />
                                     </pancake:PancakeView>
 
-                                <pancake:PancakeView Grid.Row="1"  BackgroundColor="{DynamicResource DefaultPrimaryColor}"  HeightRequest="40"  Margin="20,-80,20,70"    CornerRadius="15"
+                                <pancake:PancakeView Grid.Row="1" Padding="0"  BackgroundColor="Purple" Opacity="0.5"  HeightRequest="40" WidthRequest="70" Margin="20,-80,20,70"    CornerRadius="16"
                                        HorizontalOptions="End">
-                                    <Label Margin="3,0" Text="{Binding Price, StringFormat='{0:c}'}" FontSize="15" 
-                                           VerticalOptions="Center" Style="{StaticResource PrimaryLabel}"
-                                           FontAttributes="Bold"   HeightRequest="15" />
+                                    <Label Margin="5" Text="{Binding Price, StringFormat='{0:c}'}" FontSize="15" 
+                                           VerticalOptions="Center" HorizontalOptions="Center" Style="{StaticResource PrimaryLabel}"
+                                           FontAttributes="Bold" />
                                     </pancake:PancakeView>
-                                <Label Grid.Row="1" Text="{Binding Name}" Style="{StaticResource PrimaryLabelSubHeader}"
+                                <Label Grid.Row="1" Text="{Binding Name}" Margin="10,0,0,0" Style="{StaticResource PrimaryLabelSubHeader}"
                                        VerticalTextAlignment="Center" />
-                                    <Image Grid.Row="2" Source="Star" HorizontalOptions="Start"
+                                <Image Grid.Row="2" Source="Star" Margin="10,0,0,0" HorizontalOptions="Start"
                                            WidthRequest="20" />
                                     <Label Grid.Row="2" Margin="30,0,0,0" FontSize="15" VerticalOptions="Center">
                                         <Label.FormattedText>
@@ -174,8 +176,6 @@
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
-             
-           
         </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -125,18 +125,18 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FirebaseDatabase.net">
-      <Version>4.0.4</Version>
+      <Version>4.0.7</Version>
     </PackageReference>
     <PackageReference Include="sqlite-net-pcl">
-      <Version>1.7.335</Version>
+      <Version>1.8.116</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1238-pre3" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2478" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
     <PackageReference Include="Xamarin.Forms.PancakeView">
-      <Version>2.0.1.707-beta</Version>
+      <Version>2.3.0.763-beta</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms.Visual.Material">
-      <Version>4.8.0.1238-pre3</Version>
+      <Version>5.0.0.2478</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -214,5 +214,32 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\cook.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\man4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kid2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kid3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kid4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kid5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\man1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\man2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\man3.jpeg" />
   </ItemGroup>
 </Project>

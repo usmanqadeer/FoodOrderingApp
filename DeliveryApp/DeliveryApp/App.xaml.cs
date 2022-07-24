@@ -10,19 +10,7 @@ namespace DeliveryApp
 {
     public partial class App : Application
     {
-        private static CreateCartTable sqlDbConnection;
-        public static CreateCartTable Connection
-        {
-            get
-            {
-                if (sqlDbConnection == null)
-                {
-                    sqlDbConnection = new CreateCartTable();
-                }
-                return sqlDbConnection;
-            }
-        }
-
+       
         public App()
         {
             Device.SetFlags(new string[] 
@@ -51,6 +39,7 @@ namespace DeliveryApp
 
         protected override void OnStart()
         {
+            CreateTable();
         }
 
         protected override void OnSleep()
@@ -60,5 +49,20 @@ namespace DeliveryApp
         protected override void OnResume()
         {
         }
+        public bool CreateTable()
+        {
+            try
+            {
+                var cn = DependencyService.Get<ISQLite>().GetConnection();
+                cn.CreateTable<CartItem>();
+                cn.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
     }
 }

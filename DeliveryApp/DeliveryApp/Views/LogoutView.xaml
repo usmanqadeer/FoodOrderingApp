@@ -21,13 +21,13 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <ImageButton Source="{FontImage FontFamily=FontAwesome,
+            <ImageButton HeightRequest="40" WidthRequest="40" CornerRadius="20" Opacity="0.5" BackgroundColor="Silver" Source="{FontImage FontFamily=FontAwesome,
                 Glyph={x:Static helpers:IconFont.ArrowLeft},Size=30, Color=White}"
                 Grid.Row="0" HorizontalOptions="Start" Aspect="AspectFit"
                 VerticalOptions="Start" Margin="10,30"  Clicked="ImageButton_Clicked"/>
          
 
-            <Label Text="Burger Queen" FontSize="40"  
+            <Label Text="Burger Queen" FontSize="40" Margin="10,30,0,0" 
                    FontFamily="CabinSketch" HorizontalOptions="Center" VerticalOptions="Start" />
 
             <Label x:Name="LabelName" FontSize="Subtitle" Margin="20,0"  
@@ -48,7 +48,7 @@
                         <StackLayout Orientation="Horizontal" Spacing="10">
                             <Button Text="Yes, Logout" HorizontalOptions="Center"
                                    BackgroundColor="Red"
-                                
+                                CornerRadius="20" 
                                    Command="{Binding LogoutCommand}" />
 
                             <Button Text="No, Go To Cart" HorizontalOptions="Center"

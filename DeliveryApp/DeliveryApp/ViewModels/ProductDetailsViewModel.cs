@@ -83,7 +83,7 @@ namespace DeliveryApp.ViewModels
                 }
                 cn.Commit();
                 cn.Close();
-                Application.Current.MainPage.DisplayAlert("reussi", "ajouter à la liste d'achat",
+                Application.Current.MainPage.DisplayAlert("Right", "Product add to cart sucessfully!",
                     "OK");
             }
             catch (Exception ex)

@@ -22,12 +22,12 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <ImageButton BackgroundColor="Transparent" Source="{FontImage FontFamily=FontAwesome,
+            <ImageButton HeightRequest="40" WidthRequest="40" CornerRadius="20" Opacity="0.5" BackgroundColor="Silver" Source="{FontImage FontFamily=FontAwesome,
                 Glyph={x:Static helpers:IconFont.ArrowLeft}, Size=30, Color=White}"
                 Grid.Row="0" HorizontalOptions="Start" Aspect="AspectFit"
                 VerticalOptions="Start" Margin="10,30" Clicked="ImageButton_Clicked" />
 
-        <Label Text="Burger Queen" FontSize="40" TextColor="WhiteSmoke"
+        <Label Text="Burger Queen" Margin="10,30,0,0" FontSize="40" TextColor="WhiteSmoke"
                    FontFamily="CabinSketch" HorizontalOptions="Center" VerticalOptions="Start" />
 
         <Label x:Name="LabelName" FontSize="Subtitle" Margin="20,0" TextColor="WhiteSmoke"

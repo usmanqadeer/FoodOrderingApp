@@ -31,11 +31,11 @@ namespace DeliveryApp.Views
 
         private void ButtonCart_Clicked(object sender, EventArgs e)
         {
-            var cct = new CreateCartTable();
-            if (cct.CreateTable())
-                DisplayAlert("Operation Reussie", "table de carte créer", "Ok");
-            else
-                DisplayAlert("Error", "erreur lors de la creation de la table", "Ok");
+            //var cct = new CreateCartTable();
+            //if (cct.CreateTable())
+            //    DisplayAlert("Operation Reussie", "table de carte créer", "Ok");
+            //else
+            //    DisplayAlert("Error", "erreur lors de la creation de la table", "Ok");
         }
 
        
