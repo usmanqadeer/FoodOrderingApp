@@ -36,7 +36,7 @@
                     </Grid.RowDefinitions>
                     <Label Grid.Row="0" Grid.Column="0"  Text="{Binding TotalFoodItems , StringFormat='{0} Total Items' }" 
                            FontAttributes="Bold" FontSize="18"/>
-                    <Image Grid.Row="0" Grid.Column="1" Source="More"/>
+                    <Image Grid.Row="0" Grid.Column="1" />
 
                     <CollectionView ItemsSource="{Binding FoodItemsByCategory}"  VerticalOptions="Start" VerticalScrollBarVisibility="Never"
                                     Grid.Row="1 " Grid.Column="0" Grid.ColumnSpan="2" SelectionMode="Single" SelectionChanged="CollectionView_SelectionChanged">
@@ -76,7 +76,7 @@
                                                     </FormattedString>
                                                 </Label.FormattedText>
                                             </Label>
-                                            <Image Grid.Row="0" Grid.Column="2" Source="{Binding HomeSelected}"
+                                            <Image Grid.Row="0" Grid.Column="2" 
                                                    HeightRequest="15" />
                                         </Grid>
                                     </Frame>

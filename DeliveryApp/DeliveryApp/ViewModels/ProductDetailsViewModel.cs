@@ -67,6 +67,7 @@ namespace DeliveryApp.ViewModels
             {
                 CartItem ci = new CartItem()
                 {
+                    
                     ProductId = SelectedFoodItem.ProductID,
                     ProductName = SelectedFoodItem.Name,
                     Price = SelectedFoodItem.Price,
@@ -78,7 +79,7 @@ namespace DeliveryApp.ViewModels
                     cn.Insert(ci);
                 else
                 {
-                    item.Quantity += TotalQuantity;
+                    item.Quantity = TotalQuantity;
                     cn.Update(item);
                 }
                 cn.Commit();
@@ -88,7 +89,7 @@ namespace DeliveryApp.ViewModels
             }
             catch (Exception ex)
             {
-                Application.Current.MainPage.DisplayAlert("Erreur", ex.Message, "OK");
+                Application.Current.MainPage.DisplayAlert("Error", ex.Message, "OK");
             }
             finally
             {

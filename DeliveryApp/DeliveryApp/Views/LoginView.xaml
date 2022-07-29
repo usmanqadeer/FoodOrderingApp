@@ -7,6 +7,7 @@
              xmlns:vm="clr-namespace:DeliveryApp.ViewModels"
              xmlns:behaviors="clr-namespace:DeliveryApp.Behaviors"
              xmlns:converters="clr-namespace:DeliveryApp.Converter"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              mc:Ignorable="d"
              Visual="Material"
              x:Class="DeliveryApp.Views.LoginView">
@@ -22,8 +23,14 @@
     
     <ContentPage.Content>
         <Grid>
-            <Image Source="https://uploads-ssl.webflow.com/5e233dd1daefb852224bf74a/607db78efff5d1c15b105661_3403156.jpg"   HorizontalOptions="FillAndExpand"  Aspect="AspectFill"
-                         VerticalOptions="FillAndExpand" />
+            <xct:MediaElement x:Name="bgVideo" Source="ms-appx:///cook.mp4"
+                    ShowsPlaybackControls="False" 
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    Aspect="AspectFill"
+                    BackgroundColor="Transparent"          
+                    IsLooping="True"
+                    AutoPlay="True" />
             <Grid Padding="20" VerticalOptions="Center" Opacity="0.6">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>

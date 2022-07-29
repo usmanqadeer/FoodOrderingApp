@@ -42,13 +42,17 @@
               "target": "Package",
               "version": "[4.0.7, )"
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.3, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2478, )"
+              "version": "[5.0.0.2515, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
@@ -56,7 +60,7 @@
             },
             "Xamarin.Forms.Visual.Material": {
               "target": "Package",
-              "version": "[5.0.0.2478, )"
+              "version": "[5.0.0.2515, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -123,13 +127,17 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.3, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2478, )"
+              "version": "[5.0.0.2515, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
@@ -137,7 +145,7 @@
             },
             "Xamarin.Forms.Visual.Material": {
               "target": "Package",
-              "version": "[5.0.0.2478, )"
+              "version": "[5.0.0.2515, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

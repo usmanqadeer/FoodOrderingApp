@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ayuq1iE5vvjuT//dmPIrZHPOxS+hrLXUzQL/KKtglT+r6sXhraNa2ts9Otb3oHA6biAA23bd06USVEZMjuMOHA==",
+  "dgSpecHash": "eq3zg2bW6e/uuyD5XGBMlFDBOfQO3DVOvK0WJEn+/flGP4l1/mFgN80N2R0QSnFrb6qz7svKfzcCIjUgJEDQvA==",
   "success": true,
   "projectFilePath": "D:\\FoodOrderingApp\\DeliveryApp\\DeliveryApp.iOS\\DeliveryApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -20,10 +20,11 @@
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
-    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms\\5.0.0.2478\\xamarin.forms.5.0.0.2478.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.4\\xamarin.communitytoolkit.2.0.4.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.763-beta\\xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512",
-    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2478\\xamarin.forms.visual.material.5.0.0.2478.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2515\\xamarin.forms.visual.material.5.0.0.2515.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
   ],
   "logs": []

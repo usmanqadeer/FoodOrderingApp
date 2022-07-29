@@ -23,7 +23,7 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <Image Grid.Row="0" HeightRequest="250" Source="{Binding SelectedFoodItem.ImageUrl}"
+            <Image Grid.Row="0" HeightRequest="200" Source="{Binding SelectedFoodItem.ImageUrl}"
                    Aspect="AspectFill" VerticalOptions="Start" />
             <Label Grid.Row="1"  Text="{Binding SelectedFoodItem.Name}"
                     Style="{StaticResource PrimaryLabelHeader}"

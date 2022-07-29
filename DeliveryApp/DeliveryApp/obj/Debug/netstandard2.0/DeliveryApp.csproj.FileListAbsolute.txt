@@ -13,7 +13,6 @@ D:\FoodOrderingApp\DeliveryApp\DeliveryApp\obj\Debug\netstandard2.0\Views\Orders
 D:\FoodOrderingApp\DeliveryApp\DeliveryApp\obj\Debug\netstandard2.0\Views\ProductDetailsView.xaml.g.cs
 D:\FoodOrderingApp\DeliveryApp\DeliveryApp\obj\Debug\netstandard2.0\Views\ProductsView.xaml.g.cs
 D:\FoodOrderingApp\DeliveryApp\DeliveryApp\obj\Debug\netstandard2.0\Views\SearchResultView.xaml.g.cs
-D:\FoodOrderingApp\DeliveryApp\DeliveryApp\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
 D:\FoodOrderingApp\DeliveryApp\DeliveryApp\obj\Debug\netstandard2.0\DeliveryApp.AssemblyInfoInputs.cache
 D:\FoodOrderingApp\DeliveryApp\DeliveryApp\obj\Debug\netstandard2.0\DeliveryApp.AssemblyInfo.cs
 D:\FoodOrderingApp\DeliveryApp\DeliveryApp\obj\Debug\netstandard2.0\DeliveryApp.csproj.CoreCompileInputs.cache

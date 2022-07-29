@@ -8,6 +8,7 @@ namespace DeliveryApp.Models
     [Table("CartItem")]
    public class CartItem
     {
+        [PrimaryKey,AutoIncrement]
         public int CartItemId { get; set; }
         public int ProductId { get; set; }
         public string ProductName { get; set; }

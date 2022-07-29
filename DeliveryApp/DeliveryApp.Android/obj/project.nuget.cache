@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eAy7juVimzf8PS2uaRSZ/8pr5fcNtrQoPPOcLTc2g9iqB60vWNdeJJ4iPoBvFK3YdS/BE44IoSNnLV81dLFVXg==",
+  "dgSpecHash": "34Gyzz4+leFt99QJVLFW5PogTSUPEwDzItvY6hMBaCMc9ipCQ9nOvK3QtK1F27BbG+hvr9FL5TlvVeWDhzUDGQ==",
   "success": true,
   "projectFilePath": "D:\\FoodOrderingApp\\DeliveryApp\\DeliveryApp.Android\\DeliveryApp.Android.csproj",
   "expectedPackageFiles": [
@@ -74,10 +74,11 @@
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.8\\xamarin.androidx.versionedparcelable.1.1.1.8.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.8\\xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
-    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
-    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms\\5.0.0.2478\\xamarin.forms.5.0.0.2478.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.4\\xamarin.communitytoolkit.2.0.4.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.763-beta\\xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512",
-    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2478\\xamarin.forms.visual.material.5.0.0.2478.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2515\\xamarin.forms.visual.material.5.0.0.2515.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],

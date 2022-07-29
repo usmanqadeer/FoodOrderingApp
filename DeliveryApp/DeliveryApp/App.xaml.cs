@@ -13,11 +13,7 @@ namespace DeliveryApp
        
         public App()
         {
-            Device.SetFlags(new string[] 
-            { 
-                 "AppTheme_Experimental",
-                "MediaElement_Experimental" 
-            });
+            Device.SetFlags(new string[] { "MediaElement_Experimental", "Brush_Experimental" });
             InitializeComponent();
 
             //  MainPage = new LoginView();

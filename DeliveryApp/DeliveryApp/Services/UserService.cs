@@ -14,7 +14,7 @@ namespace DeliveryApp.Services
         FirebaseClient client;
         public UserService()
         {
-            client = new FirebaseClient("https://deliveryapp-de9df-default-rtdb.firebaseio.com/");
+            client = new FirebaseClient("https://deliverapp-2cd20-default-rtdb.firebaseio.com/");
         }
         public async Task<bool> IsUserExists(string uname)
         {
