@@ -10,7 +10,7 @@ namespace DeliveryApp.ViewModels
 {
     public class SearchResultViewModel : BaseViewModel
     {
-        public ObservableCollection<FoodItem> FoodItemsByQuery { get; set; }
+        public ObservableCollection<ProductItem> FoodItemsByQuery { get; set; }
 
 
         private int _TotalFoodItems;
@@ -25,7 +25,7 @@ namespace DeliveryApp.ViewModels
         }
         public SearchResultViewModel( string searchText)
         {
-            FoodItemsByQuery = new ObservableCollection<FoodItem>();
+            FoodItemsByQuery = new ObservableCollection<ProductItem>();
             GetFoodItemsByQuery(searchText) ;
         }
 

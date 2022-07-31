@@ -1,9 +1,7 @@
 ﻿using DeliveryApp.Models;
 using DeliveryApp.Views;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
@@ -11,9 +9,9 @@ namespace DeliveryApp.ViewModels
 {
     public class ProductDetailsViewModel : BaseViewModel  
     {
-        public FoodItem _SelectedFoodItem;
+        public ProductItem _SelectedFoodItem;
 
-        public FoodItem SelectedFoodItem
+        public ProductItem SelectedFoodItem
         {
             get { return _SelectedFoodItem; }
             set { _SelectedFoodItem = value; OnPropertyChanged(); }
@@ -38,7 +36,7 @@ namespace DeliveryApp.ViewModels
         public Command ViewCartCommand { get; set; }
         public Command HomeCommand { get; set; }
 
-        public ProductDetailsViewModel(FoodItem foodItem )
+        public ProductDetailsViewModel(ProductItem foodItem )
         {
             SelectedFoodItem = foodItem;
             TotalQuantity = 0;
@@ -52,7 +50,7 @@ namespace DeliveryApp.ViewModels
 
         private async Task GoToHomeAsync()
         {
-            await Application.Current.MainPage.Navigation.PushModalAsync(new ProductsView());
+           // await Application.Current.MainPage.Navigation.PushModalAsync(new ProductsView());
         }
 
         private async Task ViewCartAsync()

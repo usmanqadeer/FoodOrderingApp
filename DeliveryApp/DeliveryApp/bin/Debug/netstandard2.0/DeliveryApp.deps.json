@@ -9,10 +9,11 @@
     ".NETStandard,Version=v2.0/": {
       "DeliveryApp/1.0.0": {
         "dependencies": {
+          "CarouselView.FormsPlugin": "6.0.0",
           "FirebaseDatabase.net": "4.0.7",
           "NETStandard.Library": "2.0.3",
           "Xamarin.CommunityToolkit": "2.0.4",
-          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2515",
           "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "Xamarin.Forms.Visual.Material": "5.0.0.2515",
@@ -20,6 +21,14 @@
         },
         "runtime": {
           "DeliveryApp.dll": {}
+        }
+      },
+      "CarouselView.FormsPlugin/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "FirebaseDatabase.net/4.0.7": {
@@ -279,7 +288,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.7.3": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -330,6 +339,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CarouselView.FormsPlugin/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6O+/NNod+u5bO8EwNJOq2D2bHfV0NdarAUjrIBn4q6bsxgtX+ONo4JmKL2yBtRmKizoDOjM+r5GwO9ewePTGZg==",
+      "path": "carouselview.formsplugin/6.0.0",
+      "hashPath": "carouselview.formsplugin.6.0.0.nupkg.sha512"
     },
     "FirebaseDatabase.net/4.0.7": {
       "type": "package",
@@ -534,12 +550,12 @@
       "path": "xamarin.communitytoolkit/2.0.4",
       "hashPath": "xamarin.communitytoolkit.2.0.4.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.7.0": {
+    "Xamarin.Essentials/1.7.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
-      "path": "xamarin.essentials/1.7.0",
-      "hashPath": "xamarin.essentials.1.7.0.nupkg.sha512"
+      "sha512": "sha512-b6NfxOfkmMGN54a4OcV/D7KXclWWqFwgixMPzlAku3kfKgUBGW4vBdNaujIBmk57NbGpWB2IS78ek0gDHNKwoQ==",
+      "path": "xamarin.essentials/1.7.3",
+      "hashPath": "xamarin.essentials.1.7.3.nupkg.sha512"
     },
     "Xamarin.Forms/5.0.0.2515": {
       "type": "package",

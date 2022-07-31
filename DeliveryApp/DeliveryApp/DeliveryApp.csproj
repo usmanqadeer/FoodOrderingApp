@@ -13,37 +13,53 @@
   <ItemGroup>
     <None Remove="Fonts\CabinSketch-Bold.ttf" />
     <None Remove="Fonts\materialdesignicons-webfont.ttf" />
+    <None Remove="Fonts\OpenSans-Bold.ttf" />
+    <None Remove="Fonts\OpenSans-Regular.ttf" />
+    <None Remove="Fonts\OpenSans-SemiBold.ttf" />
     <None Remove="materialIcon.ttf" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Fonts\CabinSketch-Bold.ttf" />
     <EmbeddedResource Include="Fonts\materialdesignicons-webfont.ttf" />
+    <EmbeddedResource Include="Fonts\OpenSans-Bold.ttf" />
+    <EmbeddedResource Include="Fonts\OpenSans-Regular.ttf" />
+    <EmbeddedResource Include="Fonts\OpenSans-SemiBold.ttf" />
     <EmbeddedResource Include="materialIcon.ttf" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="CarouselView.FormsPlugin" Version="6.0.0" />
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.7" />
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
     <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.4" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="2.3.0.763-beta" />
     <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2515" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Views\AutenticationPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\CartView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\CategoryView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\HomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\LoginView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LogoutView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\OrdersHistoryView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -52,9 +68,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ProductDetailsView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ProductsView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SearchResultView.xaml">

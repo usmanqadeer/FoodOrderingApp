@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Nuj/E+Kr6OjWUgaH70fPyp1MZA2ycTqdkTmbQvPSN7qc0qlGCf6ivnANOFYiDN0PrMpxVRSbUybAh9eCb7BE7g==",
+  "dgSpecHash": "maMDxBeLblWLA4H7QxjObkdmiT+atj1pnjQyad8xJwSCvTaBMHfmYoZaZJnMroiMR309yrCs1huCJu7XZkNtEg==",
   "success": true,
   "projectFilePath": "D:\\FoodOrderingApp\\DeliveryApp\\DeliveryApp\\DeliveryApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\firebasedatabase.net\\4.0.7\\firebasedatabase.net.4.0.7.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -33,7 +34,7 @@
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.4\\xamarin.communitytoolkit.2.0.4.nupkg.sha512",
-    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.763-beta\\xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512",
     "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2515\\xamarin.forms.visual.material.5.0.0.2515.nupkg.sha512"

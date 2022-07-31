@@ -15,22 +15,7 @@ namespace DeliveryApp
         {
             Device.SetFlags(new string[] { "MediaElement_Experimental", "Brush_Experimental" });
             InitializeComponent();
-
-            //  MainPage = new LoginView();
-            //MainPage = new NavigationPage(new SettingsPage());
-
-
-           string uname = Preferences.Get("Username", string.Empty);
-            if (String.IsNullOrEmpty(uname))
-            {
-                MainPage = new LoginView();
-            }
-            else 
-            {
-
-                MainPage = new NavigationPage(new ProductsView());
-
-            }
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()

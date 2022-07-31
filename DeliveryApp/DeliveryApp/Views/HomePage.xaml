@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" Title="My Shop"
+             Shell.NavBarHasShadow="False"
+             Shell.TitleColor="{StaticResource FrameBackground}"
+             Shell.TabBarUnselectedColor="Gray"
+             Shell.TabBarBackgroundColor="{StaticResource Background}"
+             FlyoutIcon="menu"
+             Shell.ForegroundColor="{StaticResource FrameBackground}"
+             Shell.BackgroundColor="{StaticResource Background}"
+             xmlns:views="clr-namespace:DeliveryApp.Views"
+             x:Class="DeliveryApp.Views.HomePage">
+    <ShellItem Route="AutenticationPage" FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate views:AutenticationPage}"/>
+    </ShellItem>
+    <ShellItem Route="MainPage" FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate views:MainPage}"/>
+    </ShellItem>
+    <ShellItem Route="HomePage" FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate views:HomePage}"/>
+    </ShellItem>
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent>
+                <views:MainPage/>
+            </ShellContent>
+        </Tab>
+        <Tab Title="Favourite" Icon="heart.png">
+            <ShellContent>
+                <views:OrdersHistoryView/>
+            </ShellContent>
+        </Tab>
+        <Tab Title="My Cart" Icon="cart">
+            <ShellContent>
+                <views:CartView/>
+            </ShellContent>
+        </Tab>
+        <Tab Title="Manage" Icon="user.png">
+            <ShellContent>
+                <views:LogoutView/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <Shell.FlyoutHeader>
+        <StackLayout Orientation="Vertical" Padding="0" Margin="0" BackgroundColor="{StaticResource FrameBackground}">
+            <Frame Margin="0,20,0,0" HeightRequest="80" HorizontalOptions="Center" Padding="0" WidthRequest="80" CornerRadius="40" HasShadow="False">
+                <Image Margin="0" Aspect="AspectFill"  HeightRequest="80" WidthRequest="80" Source="https://img.freepik.com/free-photo/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt_273609-16959.jpg?w=2000"/>
+            </Frame>
+            <Label Text="Welcome" Margin="0,-5,0,0" FontSize="18" Padding="0" HorizontalOptions="CenterAndExpand" Style="{StaticResource OnboardingHeader}"/>
+            <Label Text="Usmanqadeer@gmail.com" Margin="0,-5,0,20" FontSize="16" Padding="0" HorizontalOptions="CenterAndExpand" Style="{StaticResource OnboardingHeader}"/>
+        </StackLayout>
+    </Shell.FlyoutHeader>
+    <Shell.FlyoutFooter>
+        <StackLayout HeightRequest="80" BackgroundColor="{StaticResource FrameBackground}" Padding="0" Margin="0" Orientation="Horizontal">
+            <Label HorizontalOptions="Start" VerticalOptions="Center" Padding="0" Text="Sign Out" Style="{StaticResource OnboardingContent}" FontSize="14"/>
+            <ImageButton Padding="0" Margin="0" Clicked="ImageButton_Clicked" BackgroundColor="#E94057" HorizontalOptions="Center" VerticalOptions="Center" Source="logout" HeightRequest="25" CornerRadius="13" WidthRequest="25" />
+        </StackLayout>
+    </Shell.FlyoutFooter>
+    <Shell.FlyoutBackground>
+        <LinearGradientBrush StartPoint="0,0"
+                             EndPoint="1,1">
+            
+            <GradientStop Color="#E94057"
+                          Offset="0.6" />
+            <GradientStop Color="#F27121"
+                          Offset="1.0" />
+        </LinearGradientBrush>
+        </Shell.FlyoutBackground>
+</Shell>

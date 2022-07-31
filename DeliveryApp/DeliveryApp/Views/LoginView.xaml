@@ -17,9 +17,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     
-    <ContentPage.BindingContext>
-        <vm:LoginViewModel/>
-    </ContentPage.BindingContext>
+    
     
     <ContentPage.Content>
         <Grid>

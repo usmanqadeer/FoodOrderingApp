@@ -31,7 +31,7 @@ namespace DeliveryApp.Views
 
         private void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var selectedProduct = e.CurrentSelection.FirstOrDefault() as FoodItem;
+            var selectedProduct = e.CurrentSelection.FirstOrDefault() as ProductItem;
             if (selectedProduct == null) return;
 
             Navigation.PushModalAsync(new ProductDetailsView(selectedProduct));

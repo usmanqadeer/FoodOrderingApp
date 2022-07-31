@@ -20,9 +20,9 @@ namespace DeliveryApp.Helpers
 
         }
 
-        public async Task<List<FoodItem>> GetFoodItemsAsync()
+        public async Task<List<ProductItem>> GetFoodItemsAsync()
         {
-            var products = (await client.Child("FoodItems").OnceAsync<FoodItem>()).Select(f => new FoodItem
+            var products = (await client.Child("FoodItems").OnceAsync<ProductItem>()).Select(f => new ProductItem
             {
                 ProductID = f.Object.ProductID,
                 ImageUrl = f.Object.ImageUrl,
@@ -39,9 +39,9 @@ namespace DeliveryApp.Helpers
             return products;
         }
 
-        public async Task<ObservableCollection<FoodItem>> GetFoodItemsByCategoryAsync(int categoryID)
+        public async Task<ObservableCollection<ProductItem>> GetFoodItemsByCategoryAsync(int categoryID)
         {
-            var foodItemsByCategory = new ObservableCollection<FoodItem>();
+            var foodItemsByCategory = new ObservableCollection<ProductItem>();
             var items = (await GetFoodItemsAsync()).Where(p => p.CategoryID == categoryID).ToList();
 
             foreach (var item in items)
@@ -51,9 +51,9 @@ namespace DeliveryApp.Helpers
             return foodItemsByCategory;
         }
 
-        public async Task<ObservableCollection<FoodItem>> GetLatestFoodItemsAsync()
+        public async Task<ObservableCollection<ProductItem>> GetLatestFoodItemsAsync()
         {
-            var latestFoodItems = new ObservableCollection<FoodItem>();
+            var latestFoodItems = new ObservableCollection<ProductItem>();
             var items = (await GetFoodItemsAsync()).OrderByDescending(f => f.ProductID).Take(3);
 
             foreach (var item in items)
@@ -63,9 +63,9 @@ namespace DeliveryApp.Helpers
             return latestFoodItems;
         }
 
-        public async Task<ObservableCollection<FoodItem>> GetFoodItemByQueryAsync(string searchText) 
+        public async Task<ObservableCollection<ProductItem>> GetFoodItemByQueryAsync(string searchText) 
         {
-            var foodItemByQuery = new ObservableCollection<FoodItem>();
+            var foodItemByQuery = new ObservableCollection<ProductItem>();
             var items = (await GetFoodItemsAsync()).Where(p => p.Name.Contains(searchText)).ToList();
 
             foreach(var item in items)

@@ -2,6 +2,23 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v12.0": {
+      "CarouselView.FormsPlugin/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.CirclePageIndicator": "1.1.1",
+          "Xamarin.Android.VerticalViewPager": "1.1.2",
+          "Xamarin.AndroidX.ViewPager": "1.0.0.2",
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "compile": {
+          "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/MonoAndroid/CarouselView.FormsPlugin.Droid.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/MonoAndroid/CarouselView.FormsPlugin.Droid.dll": {}
+        }
+      },
       "FirebaseDatabase.net/4.0.7": {
         "type": "package",
         "dependencies": {
@@ -186,6 +203,30 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "Xamarin.Android.CirclePageIndicator/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.ViewPager": "1.0.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid/Com.ViewPagerIndicator.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/Com.ViewPagerIndicator.dll": {}
+        }
+      },
+      "Xamarin.Android.VerticalViewPager/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.ViewPager": "1.0.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid/Com.Android.DeskClock.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/Com.Android.DeskClock.dll": {}
         }
       },
       "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -1631,7 +1672,7 @@
           "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll": {}
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.7.3": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0",
@@ -1769,9 +1810,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CarouselView.FormsPlugin": "6.0.0",
           "FirebaseDatabase.net": "4.0.7",
           "Xamarin.CommunityToolkit": "2.0.4",
-          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2515",
           "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "Xamarin.Forms.Visual.Material": "5.0.0.2515",
@@ -1787,6 +1829,28 @@
     }
   },
   "libraries": {
+    "CarouselView.FormsPlugin/6.0.0": {
+      "sha512": "6O+/NNod+u5bO8EwNJOq2D2bHfV0NdarAUjrIBn4q6bsxgtX+ONo4JmKL2yBtRmKizoDOjM+r5GwO9ewePTGZg==",
+      "type": "package",
+      "path": "carouselview.formsplugin/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carouselview.formsplugin.6.0.0.nupkg.sha512",
+        "carouselview.formsplugin.nuspec",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Droid.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.pri",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml",
+        "lib/UAP10/FlipViewControl.xbf",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
+        "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/portable-net45+netcore45/CarouselView.FormsPlugin.Abstractions.dll"
+      ]
+    },
     "FirebaseDatabase.net/4.0.7": {
       "sha512": "yj8J5al66pCXRibNsK0K1wB1ZsPeCJCnwRVfwCcd6ZQ5tbwouObt0hgp+LmzKY90bLfQJuwmnLpKzVYGwD/6xA==",
       "type": "package",
@@ -2311,6 +2375,30 @@
         "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
         "system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
         "system.runtime.interopservices.windowsruntime.nuspec"
+      ]
+    },
+    "Xamarin.Android.CirclePageIndicator/1.1.1": {
+      "sha512": "7gl/aeZ1kQ+RUSqdTtG+a1jGTniypTn5iZoQ12BiVTw0RB1zN6lKLk+KGZQAaOTpi0EOGkeeB5S67SljaGZwrA==",
+      "type": "package",
+      "path": "xamarin.android.circlepageindicator/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Com.ViewPagerIndicator.dll",
+        "xamarin.android.circlepageindicator.1.1.1.nupkg.sha512",
+        "xamarin.android.circlepageindicator.nuspec"
+      ]
+    },
+    "Xamarin.Android.VerticalViewPager/1.1.2": {
+      "sha512": "tOM4WVpY7XXXfB640yqn5V8duzRXQddxtrFMpm5hBuSj67/vUJ+5b4uE7SgZ+2BFPPKrxSQurXE31wfEMt0UIA==",
+      "type": "package",
+      "path": "xamarin.android.verticalviewpager/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Com.Android.DeskClock.dll",
+        "xamarin.android.verticalviewpager.1.1.2.nupkg.sha512",
+        "xamarin.android.verticalviewpager.nuspec"
       ]
     },
     "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -3609,10 +3697,10 @@
         "xamarin.communitytoolkit.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.7.0": {
-      "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
+    "Xamarin.Essentials/1.7.3": {
+      "sha512": "b6NfxOfkmMGN54a4OcV/D7KXclWWqFwgixMPzlAku3kfKgUBGW4vBdNaujIBmk57NbGpWB2IS78ek0gDHNKwoQ==",
       "type": "package",
-      "path": "xamarin.essentials/1.7.0",
+      "path": "xamarin.essentials/1.7.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3647,7 +3735,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.7.0.nupkg.sha512",
+        "xamarin.essentials.1.7.3.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -3974,10 +4062,11 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v12.0": [
+      "CarouselView.FormsPlugin >= 6.0.0",
       "DeliveryApp >= 1.0.0",
       "FirebaseDatabase.net >= 4.0.7",
       "Xamarin.CommunityToolkit >= 2.0.4",
-      "Xamarin.Essentials >= 1.7.0",
+      "Xamarin.Essentials >= 1.7.3",
       "Xamarin.Forms >= 5.0.0.2515",
       "Xamarin.Forms.PancakeView >= 2.3.0.763-beta",
       "Xamarin.Forms.Visual.Material >= 5.0.0.2515",
@@ -4021,6 +4110,10 @@
     "frameworks": {
       "monoandroid12.0": {
         "dependencies": {
+          "CarouselView.FormsPlugin": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "FirebaseDatabase.net": {
             "target": "Package",
             "version": "[4.0.7, )"
@@ -4031,7 +4124,7 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.7.0, )"
+            "version": "[1.7.3, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

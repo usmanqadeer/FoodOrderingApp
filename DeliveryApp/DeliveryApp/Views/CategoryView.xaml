@@ -3,12 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-              xmlns:helpers="clr-namespace:DeliveryApp.Helpers" 
+             xmlns:helpers="clr-namespace:DeliveryApp.Helpers" 
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              ios:Page.UseSafeArea="True" NavigationPage.HasNavigationBar="False"
              xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              xmlns:vm="clr-namespace:DeliveryApp.ViewModels"
              mc:Ignorable="d"
+             BackgroundColor="{StaticResource Background}"
              x:Class="DeliveryApp.Views.CategoryView">
     <ContentPage.Content>
         <Grid>
@@ -21,10 +23,10 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Image Grid.Row="0 " Source="{Binding SelectedCategory.CategoryPoster}" Aspect="AspectFill" VerticalOptions="Start"/>
-            <Label Grid.Row="1" Text="{ Binding SelectedCategory.CategoryName }" TextColor="White" FontAttributes="Bold" FontSize="35" Margin="25,-85,0,0" />
-            <ImageButton HeightRequest="40" WidthRequest="40" CornerRadius="20" Opacity="0.5" BackgroundColor="Silver" Source="{FontImage FontFamily=FontAwesome, Glyph={x:Static helpers:IconFont.ArrowLeft},Color=White ,Size=30}" Grid.Row="0" Aspect="AspectFit" 
+            <Label Grid.Row="1" Text="{ Binding SelectedCategory.CategoryName }" Style="{StaticResource OnboardingHeader}" FontAttributes="Bold" FontSize="35" Margin="25,-85,0,0" />
+            <ImageButton HeightRequest="40" WidthRequest="40" CornerRadius="20" Opacity="0.5" BackgroundColor="{StaticResource FrameBackground}" Source="{FontImage FontFamily=FontAwesome, Glyph={x:Static helpers:IconFont.ArrowLeft},Color=White ,Size=30}" Grid.Row="0" Aspect="AspectFit" 
                          VerticalOptions="Start" HorizontalOptions="Start" Margin="10,30" Clicked="ImageButton_Clicked" />
-            <pancake:PancakeView Grid.Row="2" CornerRadius="30" BackgroundColor="White" Margin="0,-40">
+            <pancake:PancakeView Grid.Row="2" CornerRadius="30" BackgroundColor="{StaticResource Background}" Margin="0,-40">
                 <Grid Padding="25,30">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
@@ -39,11 +41,11 @@
                     <Image Grid.Row="0" Grid.Column="1" />
 
                     <CollectionView ItemsSource="{Binding FoodItemsByCategory}"  VerticalOptions="Start" VerticalScrollBarVisibility="Never"
-                                    Grid.Row="1 " Grid.Column="0" Grid.ColumnSpan="2" SelectionMode="Single" SelectionChanged="CollectionView_SelectionChanged">
+                                    Grid.Row="1 " Grid.Column="0" Grid.ColumnSpan="2" SelectionMode="Single" BackgroundColor="{StaticResource Background}" SelectionChanged="CollectionView_SelectionChanged">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <StackLayout>
-                                    <Frame HasShadow="False" BackgroundColor="#fef6f2" HeightRequest="90" CornerRadius="20" Margin="0,10">
+                                <StackLayout BackgroundColor="{StaticResource Background}">
+                                    <Frame HasShadow="False" xct:ShadowEffect.Color="Silver" xct:ShadowEffect.OffsetY="10" BackgroundColor="WhiteSmoke" HeightRequest="90" CornerRadius="20" Margin="0,10">
                                         <Grid Padding="0,5">
                                             <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="Auto" />
@@ -65,17 +67,13 @@
                                             <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"
                                                    Text="{Binding Description}" FontSize="15"
                                                    TextColor="#a4a7b6" />
-                                            <Image Grid.Row="2" Grid.Column="1" Source="Star"
-                                                   HorizontalOptions="Start" WidthRequest="20" />
-                                            <Label Grid.Row="2" Grid.Column="1" Margin="30,0,0,0" FontSize="15"
+                                            <Label Grid.Row="2"  Grid.Column="1" 
+                                                   Text="Add to cart"
+                                                   HorizontalOptions="Start" />
+                                            <StackLayout Grid.Row="2" Grid.Column="1" Margin="30,0,0,0" 
                                                    VerticalOptions="Center">
-                                                <Label.FormattedText>
-                                                    <FormattedString>
-                                                        <Span Text="{Binding Rating}" FontAttributes="Bold" />
-                                                        <Span Text="{Binding RatingDetail}" TextColor="#a4a7b6" />
-                                                    </FormattedString>
-                                                </Label.FormattedText>
-                                            </Label>
+                                                <Button ImageSource="addcart" HorizontalOptions="End" WidthRequest="35" HeightRequest="35" CornerRadius="8" VerticalOptions="Center"  BackgroundColor="{StaticResource PlaceholderColor}"/>
+                                            </StackLayout>
                                             <Image Grid.Row="0" Grid.Column="2" 
                                                    HeightRequest="15" />
                                         </Grid>

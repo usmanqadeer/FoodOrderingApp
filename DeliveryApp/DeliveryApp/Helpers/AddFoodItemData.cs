@@ -13,14 +13,14 @@ namespace DeliveryApp.Helpers
     {
         FirebaseClient client;
 
-        public List<FoodItem> FoodItems { get; set; }
+        public List<ProductItem> FoodItems { get; set; }
 
         public AddFoodItemData()
         {
             client = new FirebaseClient("https://deliverapp-2cd20-default-rtdb.firebaseio.com/");
-            FoodItems = new List<FoodItem>()
+            FoodItems = new List<ProductItem>()
             {
-                new FoodItem
+                new ProductItem
                 {
                     ProductID = 1,
                     CategoryID = 1,
@@ -32,7 +32,7 @@ namespace DeliveryApp.Helpers
                     HomeSelected = "CompleteHeart",
                     Price = 45
                 },
-                new FoodItem
+                new ProductItem
                 {
                     ProductID = 2,
                     CategoryID = 1,
@@ -44,7 +44,7 @@ namespace DeliveryApp.Helpers
                     HomeSelected = "EmptyHeart",
                     Price = 45
                 },
-                new FoodItem
+                new ProductItem
                 {
                     ProductID = 3,
                     CategoryID = 1,
@@ -56,7 +56,7 @@ namespace DeliveryApp.Helpers
                     HomeSelected = "CompleteHeart",
                     Price = 45
                 },
-                new FoodItem
+                new ProductItem
                 {
                     ProductID = 4,
                     CategoryID = 1,
@@ -68,7 +68,7 @@ namespace DeliveryApp.Helpers
                     HomeSelected = "EmptyHeart",
                     Price = 45
                 },
-                new FoodItem
+                new ProductItem
                 {
                     ProductID = 5,
                     CategoryID = 2,
@@ -80,7 +80,7 @@ namespace DeliveryApp.Helpers
                     HomeSelected = "CompleteHeart",
                     Price = 45
                 },
-                new FoodItem
+                new ProductItem
                 {
                     ProductID = 6,
                     CategoryID = 2,
@@ -92,7 +92,7 @@ namespace DeliveryApp.Helpers
                     HomeSelected = "EmptyHeart",
                     Price = 45
                 },
-                new FoodItem
+                new ProductItem
                 {
                     ProductID = 7,
                     CategoryID = 3,
@@ -104,7 +104,7 @@ namespace DeliveryApp.Helpers
                     HomeSelected = "CompleteHeart",
                     Price = 45
                 },
-                new FoodItem
+                new ProductItem
                 {
                     ProductID = 8,
                     CategoryID = 3,
@@ -125,7 +125,7 @@ namespace DeliveryApp.Helpers
             {
                 foreach (var item in FoodItems)
                 {
-                    await client.Child("FoodItems").PostAsync(new FoodItem()
+                    await client.Child("FoodItems").PostAsync(new ProductItem()
                     {
                         CategoryID = item.CategoryID,
                         ProductID = item.ProductID,

@@ -3,19 +3,17 @@ using DeliveryApp.Models;
 using DeliveryApp.Services;
 using DeliveryApp.Views;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.Internals;
-using static System.Net.Mime.MediaTypeNames;
+using System.Linq;
 using Application = Xamarin.Forms.Application;
+using System.Windows.Input;
 
 namespace DeliveryApp.ViewModels
 {
-   public class ProductsViewModel : BaseViewModel
+    public class ProductsViewModel : BaseViewModel
     {
         private string _Username;
         public string Username
@@ -44,15 +42,33 @@ namespace DeliveryApp.ViewModels
         }
 
         public ObservableCollection<Category> Categories { get; set; }
-        public ObservableCollection<FoodItem> LatestItems { get; set; }
+        public ObservableCollection<ProductItem> LatestItems { get; set; }
 
         public Command ViewCartCommand { get; set; }
         public Command LogoutCommand { get; set; }
         public Command OrdersHistoryCommand { get; set; }
         public Command SearchViewCommand { get; set; }
+        public ICommand SearchBarCommand { get; set; }
+        public Command CloseViewCommand { get; set; }
 
-        public ProductsViewModel()
+        private string searchItem;
+
+        public string SearchedText
         {
+            get { return searchItem; }
+            set { searchItem = value; OnPropertyChanged("SearchProductName"); }
+        }
+        private bool isLoding = false;
+
+        public bool IsLoding
+        {
+            get { return isLoding; }
+            set { isLoding = value; OnPropertyChanged("IsLoding"); }
+        }
+
+        public ProductsViewModel(INavigation navigation)
+        {
+            this.Navigation = navigation;
             var uname = Preferences.Get("Username", String.Empty);
             if (string.IsNullOrEmpty(uname))
             {
@@ -62,8 +78,7 @@ namespace DeliveryApp.ViewModels
 
             UserCartItemsCount = new CartItemService().GetUserCartCount();
             Categories = new ObservableCollection<Category>();
-            LatestItems= new ObservableCollection<FoodItem>();
-
+            LatestItems= new ObservableCollection<ProductItem>();
 
             GetCategoriesAsync();
             GetLatestItems();
@@ -72,6 +87,7 @@ namespace DeliveryApp.ViewModels
             LogoutCommand = new Command(async () => await LogoutAsync());
             OrdersHistoryCommand = new Command(async () => await OrdersHistoryAsync());
             SearchViewCommand = new Command(async () => await SearchViewAsync());
+            SearchBarCommand = new Command(async () => await Search());
         }
 
         private async Task SearchViewAsync()
@@ -86,7 +102,27 @@ namespace DeliveryApp.ViewModels
             }
            
         }
+        private async Task Search()
+        {
+            if (!string.IsNullOrEmpty(SearchedText))
+            {
+                var filteredProducts = LatestItems
+                            .Where(x =>
+                                x.Name.ToLower().Contains(SearchedText.ToLower()))
+                            .ToList();
 
+                LatestItems.Clear();
+
+                foreach (var productItem in filteredProducts)
+                    LatestItems.Add(productItem);
+            }
+            else
+            {
+                
+                LatestItems.Clear();
+                GetLatestItems();
+            }
+        }
         private async Task OrdersHistoryAsync()
         {
             await Application.Current.MainPage.Navigation.PushModalAsync(new OrdersHistoryView());
@@ -104,23 +140,26 @@ namespace DeliveryApp.ViewModels
 
         private async void GetLatestItems()
         {
-            var data = await new FoodItemService().GetLatestFoodItemsAsync();
+            IsLoding = true;
+            var data = await new FoodItemService().GetFoodItemsAsync();
             LatestItems.Clear();
             foreach(var item in data)
             {
                 LatestItems.Add(item);
             }
-
+            IsLoding = false;
         }
 
         private async void GetCategoriesAsync()
         {
+            IsLoding = true;
             var data = await new CategoryDataService().GetCategoriesAsync();
             Categories.Clear();
             foreach( var item in data)
             {
                 Categories.Add(item);
             }
+            IsLoding = false;
         }
     }
 }

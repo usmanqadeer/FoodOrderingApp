@@ -24,7 +24,7 @@ namespace DeliveryApp.ViewModels
             }
         }
 
-        public ObservableCollection<FoodItem> FoodItemsByCategory { get; set; }
+        public ObservableCollection<ProductItem> FoodItemsByCategory { get; set; }
 
         private int _TotalFoodItems;
         public int TotalFoodItems
@@ -44,7 +44,7 @@ namespace DeliveryApp.ViewModels
         public CategoryViewModel(Category category)
         {
             SelectedCategory = category;
-            FoodItemsByCategory = new ObservableCollection<FoodItem>();
+            FoodItemsByCategory = new ObservableCollection<ProductItem>();
             GetFoodItems(category.CategoryID);
         }
 

@@ -70,9 +70,10 @@ namespace DeliveryApp.ViewModels
         public Command LoginCommand { get; set; }
         public Command RegisterCommand { get; set; }
 
-        public LoginViewModel()
+        public LoginViewModel(INavigation navigation)
         {
             Disable = false;
+            this.Navigation = navigation;
             LoginCommand = new Command(async () => await LoginCommandAsync());
             RegisterCommand = new Command(async () => await RegisterCommandAsync());
         }
@@ -118,7 +119,7 @@ namespace DeliveryApp.ViewModels
                 if (Result)
                 {
                     Preferences.Set("Username", Username);
-                    await Application.Current.MainPage.Navigation.PushModalAsync(new ProductsView());
+                    await Shell.Current.GoToAsync($"//{nameof(MainPage)}");
                 }
                 else
                 {

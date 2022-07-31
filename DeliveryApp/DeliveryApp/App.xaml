@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              mc:Ignorable="d"
              x:Class="DeliveryApp.App">
     <Application.Resources>
@@ -81,6 +82,63 @@
                     Dark={StaticResource DarkPrimaryTextColor}}" />
             <Setter Property="FontSize" Value="20" />
             <Setter Property="FontAttributes" Value="Bold" />
+        </Style>
+        <Color x:Key="Background">#f9f9fe</Color>
+        <Color x:Key="GradintStartColor">#F4742B</Color>
+        <Color x:Key="GradintEndColor">#F4742B</Color>
+        <Color x:Key="FrameBackground">#F4742B</Color>
+        <Color x:Key="TextColor">#2c2c2c</Color>
+        <Color x:Key="PlaceholderColor">#d2d3d6</Color>
+        <!--  Styles  -->
+        <Style x:Key="OnboardingHeader" TargetType="Label">
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="Margin" Value="20" />
+            <Setter Property="FontSize" Value="32" />
+        </Style>
+        <Style TargetType="pancake:PancakeView" x:Key="ButtonStle">
+            <Setter Property="CornerRadius" Value="50"/>
+            <Setter Property="Margin" Value="25,0,25,0"/>
+            <Setter Property="HeightRequest" Value="45"/>
+        </Style>
+        <Style TargetType="Frame" x:Key="EntryStyle">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="IsClippedToBounds" Value="True"/>
+            <Setter Property="HasShadow" Value="True"/>
+            <Setter Property="HeightRequest" Value="45"/>
+            <Setter Property="BackgroundColor" Value="#ffffff"/>
+        </Style>
+        <Style x:Key="OnboardingContent" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            <Setter Property="FontFamily" Value="SemiBoldFont" />
+            <Setter Property="Margin" Value="20,0" />
+            <Setter Property="FontSize" Value="20" />
+        </Style>
+
+        <Style x:Key="SubHeader" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            <Setter Property="FontFamily" Value="SemiBoldFont" />
+            <Setter Property="FontSize" Value="8" />
+        </Style>
+
+        <Style x:Key="PageHeader" TargetType="Label">
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="FontFamily" Value="SemiBoldFont" />
+            <Setter Property="FontSize" Value="24" />
+        </Style>
+        <Style x:Key="PageSubHeader" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource TextColor }" />
+            <Setter Property="FontFamily" Value="SemiBoldFont" />
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+        <Style x:Key="SectionHeader" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            <Setter Property="FontFamily" Value="SemiBoldFont" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style x:Key="SectionDetail" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            <Setter Property="FontFamily" Value="SemiBoldFont" />
+            <Setter Property="FontSize" Value="12" />
         </Style>
     </Application.Resources>
 </Application>

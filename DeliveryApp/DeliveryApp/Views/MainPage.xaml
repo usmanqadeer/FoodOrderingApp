@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"                                                             
+             BackgroundColor="{StaticResource Background}"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             ios:Page.UseSafeArea="False"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:local="clr-namespace:DeliveryApp.ViewModels"
+             Title="Home"
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions" 
+             xmlns:behaviors="clr-namespace:DeliveryApp.Renderers"
+             x:Class="DeliveryApp.Views.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="LogoutButton" IconImageSource="logout.png"  Clicked="LogoutButton_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="0" Padding="0"  VerticalOptions="FillAndExpand">
+                <StackLayout Margin="0" Padding="0">
+                    <Grid RowDefinitions="Auto,Auto,Auto,*">
+                        <StackLayout Margin="0,20,0,0" Grid.Row="0" HorizontalOptions="Start" Spacing="0">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <Frame Margin="15,0,0,0" Grid.Column="0"
+                                               IsClippedToBounds="True"
+                                               Padding="0"
+                                               BorderColor="{StaticResource PlaceholderColor}"
+                                               HasShadow="True"
+                                               BackgroundColor="{StaticResource Background}"
+                                               HeightRequest="50"
+                                               CornerRadius="16" >
+                                    <SearchBar
+                                                        x:Name="doctorsSearchBar"
+                                                        Placeholder="Search"
+                                                        VerticalOptions="Center"
+                                                        FontSize="17"
+                                                        TextColor="Black"
+                                                        HeightRequest="50"
+                                                        Text="{Binding SearchedText}"
+                                                        SearchCommand="{Binding SearchBarCommand}">
+                                        <SearchBar.Behaviors>
+                                            <behaviors:SearchBarTextChangedBehavior />
+                                        </SearchBar.Behaviors>
+                                    </SearchBar>
+                                </Frame>
+                                <StackLayout Margin="10,0,15,0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center">
+                                    <Frame HeightRequest="50" WidthRequest="50" Padding="0" CornerRadius="16" BackgroundColor="{StaticResource PlaceholderColor}">
+                                        <ImageButton Margin="10" Source="filter.png"
+                                                         HeightRequest="20"
+                                                         WidthRequest="20"
+                                                         Command="{Binding SearchBarCommand}"    
+                                                         BackgroundColor="Transparent"
+                                                         CornerRadius="16"
+                                                         Aspect="AspectFill"/>
+                                    </Frame>
+                                </StackLayout>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1">
+                            <pv:PancakeView  Padding="0" Margin="10,10,10,5" CornerRadius="30" BackgroundColor="{StaticResource FrameBackground}"  HeightRequest="120" HorizontalOptions="Center">
+                                <cv:CarouselViewControl  x:Name="cvBanners" ShowIndicators="true" IndicatorsShape="Circle" IndicatorsTintColor="LightGray"
+                                    CurrentPageIndicatorTintColor="Red" Orientation="Horizontal" InterPageSpacing="0" 
+                                    HeightRequest="120" ItemsSource="{Binding LatestItems}" HorizontalOptions="FillAndExpand" 
+                                    VerticalOptions="StartAndExpand" AnimateTransition="True">
+                                    <cv:CarouselViewControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Padding="0" Margin="0">
+                                                <Image
+                                                        Source="{Binding ImageUrl}" 
+                                                        Margin="0"
+                                                        Aspect="AspectFill" 
+                                                        VerticalOptions="FillAndExpand"
+                                                        HorizontalOptions="FillAndExpand"/>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </cv:CarouselViewControl.ItemTemplate>
+                                </cv:CarouselViewControl>
+                            </pv:PancakeView>
+                        </StackLayout>
+                        <StackLayout Grid.Row="2">
+                            <ScrollView  Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                                <StackLayout Orientation="Horizontal" Spacing="0" 
+                                                     Margin="10,0,0,0"
+                                                     BindableLayout.ItemsSource="{Binding Categories}">
+                                    <BindableLayout.ItemTemplate >
+                                        <DataTemplate>
+                                            <Frame CornerRadius="30" 
+                                                           HeightRequest="60"
+                                                           WidthRequest="150"
+                                                           Margin="0,0,10,0"
+                                                           Padding="0"
+                                                           BackgroundColor="{StaticResource PlaceholderColor}"
+                                                           HasShadow="True">
+                                                <Frame.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="SelectType"/>
+                                                </Frame.GestureRecognizers>
+                                                <VisualStateManager.VisualStateGroups>
+                                                    <VisualStateGroup x:Name="CommonStates">
+                                                        <VisualState x:Name="Normal">
+                                                            <VisualState.Setters>
+                                                                <Setter Property="BackgroundColor" Value="{x:Null}"/>
+                                                            </VisualState.Setters>
+                                                        </VisualState>
+                                                        <VisualState x:Name="Selected">
+                                                            <VisualState.Setters>
+                                                                <Setter Property="BackgroundColor" Value="#F4742B"/>
+                                                            </VisualState.Setters>
+                                                        </VisualState>
+                                                    </VisualStateGroup>
+                                                </VisualStateManager.VisualStateGroups>
+                                                <StackLayout Padding="0" Orientation="Horizontal" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand">
+                                                    <Frame Margin="5,0,0,0" BackgroundColor="{StaticResource Background}" Padding="0" HeightRequest="50" CornerRadius="25" HasShadow="False" WidthRequest="50" HorizontalOptions="StartAndExpand">
+                                                        <Image Margin="5" Source="{Binding ImageUrl}" Aspect="AspectFit"/>
+                                                    </Frame>
+                                                    <Label x:Name="PropertyTypeName" 
+                                                           HorizontalOptions="EndAndExpand"
+                                                           VerticalOptions="CenterAndExpand"
+                                                           Text="{Binding CategoryName}"
+                                                           TextColor="#707070"
+                                                           FontSize="15"
+                                                           Margin="10,0,0,0"
+                                                           FontFamily="ThemeFontRegular"/>
+                                                </StackLayout>
+                                            </Frame>
+                                        </DataTemplate>
+                                    </BindableLayout.ItemTemplate>
+                                </StackLayout>
+                            </ScrollView>
+                        </StackLayout>
+                        <StackLayout Grid.Row="3">
+                            <CollectionView  HorizontalScrollBarVisibility="Never"
+                                                    ItemsSource="{Binding LatestItems}"
+                                                    Margin="5,0,5,0"
+                                                    HeightRequest="380">
+                                <CollectionView.ItemsLayout>
+                                    <GridItemsLayout Orientation="Vertical"
+                                                    Span="2" />
+                                </CollectionView.ItemsLayout>
+                                <CollectionView.ItemTemplate>
+
+                                    <DataTemplate>
+                                        <StackLayout Padding="2,5,10,5">
+                                            <Frame Padding="20,10,20,10" WidthRequest="200" HeightRequest="200" VerticalOptions="FillAndExpand" CornerRadius="20" HorizontalOptions="Start" HasShadow="False" xct:ShadowEffect.Color="Silver" xct:ShadowEffect.OffsetY="10">
+                                                <Grid RowDefinitions="*,Auto,Auto" ColumnDefinitions="*,Auto">
+                                                    <Frame  Grid.ColumnSpan="2" Grid.Row="0" IsClippedToBounds="True" CornerRadius="25" HasShadow="False" Margin="0" Padding="0" xct:ShadowEffect.Color="Silver" xct:ShadowEffect.OffsetY="12">
+                                                        <Frame.GestureRecognizers>
+                                                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                                                        </Frame.GestureRecognizers>
+                                                        <Image  Source="{Binding ImageUrl}" Aspect="AspectFill" Margin="0"/>
+                                                    </Frame>
+                                                    <Label Grid.Column="0" Grid.Row="1" Text="{Binding Name}" FontAttributes="Bold" Padding="0,10,0,0"/>
+                                                    <Label Grid.Column="0" Grid.Row="2"  TextColor="Black" FontAttributes="Bold">
+                                                        <Label.FormattedText>
+                                                            <FormattedString>
+                                                                <Span Text="$"/>
+                                                                <Span FontAttributes="Bold" Text="{Binding Price}"/>
+                                                            </FormattedString>
+                                                        </Label.FormattedText>
+                                                    </Label>
+                                                    <Button Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" ImageSource="heart" HorizontalOptions="End" WidthRequest="35" HeightRequest="35" CornerRadius="8" VerticalOptions="Center"  BackgroundColor="{StaticResource PlaceholderColor}"/>
+                                                </Grid>
+                                            </Frame>
+                                        </StackLayout>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </StackLayout>
+                        <Image HeightRequest="50" Grid.Row="3" WidthRequest="50" HorizontalOptions="Center" Source="loading.gif" IsAnimationPlaying="{Binding IsLoding, Mode=TwoWay}" IsVisible="{Binding IsLoding, Mode=TwoWay}" VerticalOptions="Start" />
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

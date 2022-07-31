@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="False"
+             xmlns:views="clr-namespace:DeliveryApp.Views"
+             xmlns:yammy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:entry="clr-namespace:DeliveryApp.Rendereres"
+             BackgroundColor="#ffffff"
+             Shell.FlyoutBehavior="Disabled"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="DeliveryApp.Views.AutenticationPage">
+   
+    <ContentPage.Content>
+        <Grid RowDefinitions="0.5*,*,Auto">
+            <yammy:PancakeView 
+                               Grid.Row="0"
+                               Padding="0"
+                               Shadow="{yammy:ShadowMarkup Color={StaticResource FrameBackground}, BlurRadius=30}"
+                               BackgroundColor="{StaticResource FrameBackground}"
+                               CornerRadius="0,0,30,30">
+                <Frame HorizontalOptions="Start"
+                       Margin="15,50,0,0"
+                       HasShadow="False"
+                       Padding="0"
+                       IsClippedToBounds="True"
+                       CornerRadius="15"
+                       BackgroundColor="{StaticResource FrameBackground}"
+                       VerticalOptions="Start">
+                    <ImageButton 
+                             Aspect="AspectFill"
+                                 HeightRequest="20"
+                                 WidthRequest="20"
+                                 Command="{Binding CloseViewCommand}"
+                                 Margin="5"
+                                 Padding="0"
+                                 BackgroundColor="Transparent"
+                             />
+                </Frame>
+                
+            </yammy:PancakeView>
+                
+            <StackLayout  Spacing="0" VerticalOptions="FillAndExpand" Margin="0,-60,0,0" Grid.Row="1">
+                <xct:TabView x:Name="OnBoardingTabView" Margin="0,0,0,0" IsClippedToBounds="True" 
+                             TabStripPlacement="Top"
+                             TabStripHeight="0"
+                             SelectedIndex="{Binding TabIndex}"
+                             TabIndicatorWidth="55"
+                             TabIndicatorHeight="2"
+                             TabIndicatorColor="White"
+                             IsSwipeEnabled="True" IsTabStripVisible="True">
+                    <xct:TabViewItem Text="Sign Up"
+                                     Margin="0,15,0,0" 
+                                     FontFamily="BoldFont"
+                                     FontAttributes="Bold" 
+                                     FontSize="16"
+                                     TextColor="White">
+                        <StackLayout Orientation="Vertical" Padding="20" Spacing="15">
+                            <Label Text="Create An Account"
+                                   HorizontalOptions="Center"
+                                   TextColor="{StaticResource TextColor}"
+                                   Style="{StaticResource PageHeader}"/>
+                            <Frame Padding="0" Style="{StaticResource EntryStyle}">
+                                <Grid Margin="0" ColumnDefinitions="Auto,*">
+                                    <StackLayout Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                                        <Image Margin="10,0,0,0" HeightRequest="20" WidthRequest="20" Source="user.png" Aspect="AspectFit"/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <entry:CustomEntryBorderless Margin="5,0,5,0"
+                                                                     FontSize="16" 
+                                                                     Placeholder="Full Name" 
+                                                                     Text="{Binding FullName}"
+                                                                     PlaceholderColor="{StaticResource PlaceholderColor}"/>
+                                    </StackLayout>
+                                    
+                                </Grid>
+                            </Frame>
+                            <Frame Padding="0" Style="{StaticResource EntryStyle}">
+                                <Grid Margin="0" ColumnDefinitions="Auto,*">
+                                    <StackLayout Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                                        <Image Margin="10,0,0,0" HeightRequest="20" WidthRequest="20" Source="mail.png" Aspect="AspectFit"/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <entry:CustomEntryBorderless 
+                                            Margin="5,0,5,0" 
+                                            FontSize="16" 
+                                            Placeholder="Email"
+                                            Text="{Binding Username}"
+                                            PlaceholderColor="{StaticResource PlaceholderColor}"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                            <Frame Padding="0" Style="{StaticResource EntryStyle}">
+                                <Grid Margin="0" ColumnDefinitions="Auto,*">
+                                    <StackLayout Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                                        <Image Margin="10,0,0,0" HeightRequest="20" WidthRequest="20" Source="password.png" Aspect="AspectFit"/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <entry:CustomEntryBorderless Margin="5,0,5,0"
+                                                                     FontSize="16"
+                                                                     Placeholder="Password"
+                                                                     IsPassword="True"
+                                                                     Text="{Binding Password}"
+                                                                     PlaceholderColor="{StaticResource PlaceholderColor}"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                            <yammy:PancakeView CornerRadius="20" Style="{StaticResource ButtonStle}" BackgroundGradientEndPoint="0,0" BackgroundGradientStartPoint="1,1">
+                                <Button Text="Sign Up" Command="{Binding RegisterCommand}" TextColor="White" TextTransform="None" FontSize="16" FontAttributes="Bold" BackgroundColor="Transparent"/>
+                                <yammy:PancakeView.BackgroundGradientStops>
+                                    <yammy:GradientStopCollection>
+                                        <yammy:GradientStop Color="{StaticResource FrameBackground}" Offset="0" />
+                                        <yammy:GradientStop Color="{StaticResource GradintStartColor}" Offset="1" />
+                                    </yammy:GradientStopCollection>
+                                    </yammy:PancakeView.BackgroundGradientStops>
+                            </yammy:PancakeView>
+                            <StackLayout Padding="0" Margin="45,0,45,0">
+                                <Grid Padding="0" Margin="0,-15,0,0" ColumnDefinitions="Auto,*,Auto" ColumnSpacing="0">
+                                    <StackLayout Margin="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="1" WidthRequest="50"  BackgroundColor="Silver"/>
+                                    <Label Grid.Column="1" HorizontalOptions="Center" Text="Or Sign Up With" FontSize="12" FontAttributes="Bold"  Style="{StaticResource OnboardingHeader}" TextColor="{StaticResource TextColor}"/>
+                                    <StackLayout Grid.Column="2" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="1" WidthRequest="50"  BackgroundColor="Silver"/>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Margin="20,0,20,0">
+                                <ActivityIndicator HorizontalOptions="Center" Color="{StaticResource FrameBackground}" HeightRequest="20" WidthRequest="20" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" BackgroundColor="Transparent"/>
+                                <Grid ColumnDefinitions="*,*">
+                                    <StackLayout Grid.Column="0">
+                                        <Frame Padding="0" CornerRadius="20" HeightRequest="45" Style="{StaticResource EntryStyle}">
+                                            <Grid Padding="0" ColumnDefinitions="Auto,*" ColumnSpacing="0">
+                                                <StackLayout Grid.Column="0" Margin="0" VerticalOptions="Center" HorizontalOptions="Center">
+                                                    <Image Margin="10,0,0,0" Source="google.png" Aspect="AspectFit" HeightRequest="25" WidthRequest="25"/>
+                                                </StackLayout>
+                                                <StackLayout Grid.Column="1" HorizontalOptions="Start" VerticalOptions="CenterAndExpand">
+                                                    <Label Margin="12" Text="Google" FontSize="16" Style="{StaticResource PageHeader}" TextColor="{StaticResource TextColor}"/>
+                                                </StackLayout>
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1">
+                                        <Frame Padding="0" CornerRadius="20" HeightRequest="45" Style="{StaticResource EntryStyle}">
+                                            <Grid Padding="0" ColumnDefinitions="Auto,*" ColumnSpacing="0">
+                                                <StackLayout Grid.Column="0" Margin="0" VerticalOptions="Center" HorizontalOptions="Center">
+                                                    <Image Margin="10,0,0,0" Source="apple.png" Aspect="AspectFit" HeightRequest="25" WidthRequest="25"/>
+                                                </StackLayout>
+                                                <StackLayout Grid.Column="1" HorizontalOptions="Start" VerticalOptions="CenterAndExpand">
+                                                    <Label Margin="12" Text="Apple" FontSize="16" Style="{StaticResource PageHeader}" TextColor="{StaticResource TextColor}"/>
+                                                </StackLayout>
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                        </StackLayout>
+                    </xct:TabViewItem>
+                    <xct:TabViewItem Margin="0,15,0,0" 
+                                     Text="Sign In" 
+                                     FontSize="16"
+                                     FontFamily="BoldFont"
+                                     FontAttributes="Bold" TextColor="White">
+                        <StackLayout Margin="0,30,0,0" Padding="20,0,20,0" Spacing="20">
+                            <Label Text="Welecome Back"
+                                   HorizontalOptions="Center"
+                                   TextColor="{StaticResource TextColor}"
+                                   Style="{StaticResource PageHeader}"/>
+                            
+                            <Frame Padding="0" Style="{StaticResource EntryStyle}">
+                                <Grid Margin="0" ColumnDefinitions="Auto,*">
+                                    <StackLayout Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                                        <Image Margin="10,0,0,0" HeightRequest="20" WidthRequest="20" Source="mail.png" Aspect="AspectFit"/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <entry:CustomEntryBorderless Text="{Binding Username}" Margin="5,0,5,0" FontSize="16" Placeholder="Email" PlaceholderColor="{StaticResource PlaceholderColor}"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                            <Frame Padding="0" Style="{StaticResource EntryStyle}">
+                                <Grid Margin="0" ColumnDefinitions="Auto,*">
+                                    <StackLayout Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                                        <Image Margin="10,0,0,0" HeightRequest="20" WidthRequest="20" Source="password.png" Aspect="AspectFit"/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <entry:CustomEntryBorderless Text="{Binding Password}" Margin="5,0,5,0" FontSize="16" IsPassword="True" Placeholder="Password" PlaceholderColor="{StaticResource PlaceholderColor}"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                            <yammy:PancakeView CornerRadius="20" Style="{StaticResource ButtonStle}" BackgroundGradientEndPoint="0,0" BackgroundGradientStartPoint="1,1">
+                                <Button Text="Sign In" Command="{Binding LoginCommand}" TextColor="White" TextTransform="None" FontSize="16" FontAttributes="Bold" BackgroundColor="Transparent"/>
+                               
+                                <yammy:PancakeView.BackgroundGradientStops>
+                                    <yammy:GradientStopCollection>
+                                        <yammy:GradientStop Color="{StaticResource FrameBackground}" Offset="0" />
+                                        <yammy:GradientStop Color="{StaticResource GradintStartColor}" Offset="1" />
+                                    </yammy:GradientStopCollection>
+                                    </yammy:PancakeView.BackgroundGradientStops>
+                            </yammy:PancakeView>
+                            <StackLayout Padding="0" Margin="45,0,45,0">
+                                <Grid Padding="0" Margin="0,-15,0,0" ColumnDefinitions="Auto,*,Auto" ColumnSpacing="0">
+                                    <StackLayout Margin="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="1" WidthRequest="50"  BackgroundColor="Silver"/>
+                                    <Label Grid.Column="1" HorizontalOptions="Center" Text="Or Sign In With" FontSize="12"
+                                           FontAttributes="Bold"  Style="{StaticResource OnboardingHeader}"
+                                           TextColor="{StaticResource TextColor}"/>
+                                    <StackLayout Grid.Column="2" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="1" WidthRequest="50"  BackgroundColor="Silver"/>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Margin="20,0,20,0">
+                                <ActivityIndicator HorizontalOptions="Center" Color="{StaticResource FrameBackground}" HeightRequest="20" WidthRequest="20" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" BackgroundColor="Transparent"/>
+                                <Grid ColumnDefinitions="*,*">
+                                    <StackLayout Grid.Column="0">
+                                        <Frame Padding="0" CornerRadius="20" HeightRequest="45" Style="{StaticResource EntryStyle}">
+                                            <Grid Padding="0" ColumnDefinitions="Auto,*" ColumnSpacing="0">
+                                                <StackLayout Grid.Column="0" Margin="0" VerticalOptions="Center" HorizontalOptions="Center">
+                                                    <Image Margin="10,0,0,0" Source="google.png" Aspect="AspectFit" HeightRequest="25" WidthRequest="25"/>
+                                                </StackLayout>
+                                                <StackLayout Grid.Column="1" HorizontalOptions="Start" VerticalOptions="CenterAndExpand">
+                                                    <Label Margin="12" Text="Google" FontSize="16" Style="{StaticResource PageHeader}" TextColor="{StaticResource TextColor}"/>
+                                                </StackLayout>
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1">
+                                        <Frame Padding="0" CornerRadius="20" HeightRequest="45" Style="{StaticResource EntryStyle}">
+                                            <Grid Padding="0" ColumnDefinitions="Auto,*" ColumnSpacing="0">
+                                                <StackLayout Grid.Column="0" Margin="0" VerticalOptions="Center" HorizontalOptions="Center">
+                                                    <Image Margin="10,0,0,0" Source="apple.png" Aspect="AspectFit" HeightRequest="25" WidthRequest="25"/>
+                                                </StackLayout>
+                                                <StackLayout Grid.Column="1" HorizontalOptions="Start" VerticalOptions="CenterAndExpand">
+                                                    <Label Margin="12" Text="Apple" FontSize="16" Style="{StaticResource PageHeader}" TextColor="{StaticResource TextColor}"/>
+                                                </StackLayout>
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                        </StackLayout>
+                    </xct:TabViewItem>
+                </xct:TabView>
+            </StackLayout>
+            <yammy:PancakeView HeightRequest="70"
+                               Grid.Row="2"
+                               Shadow="{yammy:ShadowMarkup Color={StaticResource FrameBackground}, BlurRadius=30}"
+                               BackgroundColor="{StaticResource FrameBackground}"
+                               CornerRadius="30,30,0,0"/>
+                
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

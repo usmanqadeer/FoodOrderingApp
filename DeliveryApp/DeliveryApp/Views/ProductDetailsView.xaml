@@ -9,145 +9,129 @@
              xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
              mc:Ignorable="d"
              Visual="Material"
-              BackgroundColor="{AppThemeBinding Light={StaticResource LightPageBackgroundColor}, Dark={StaticResource DarkPageBackgroundColor}}"
+             BackgroundColor="{StaticResource Background}"
              x:Class="DeliveryApp.Views.ProductDetailsView">
     <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="200" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
-
-            <Image Grid.Row="0" HeightRequest="200" Source="{Binding SelectedFoodItem.ImageUrl}"
-                   Aspect="AspectFill" VerticalOptions="Start" />
-            <Label Grid.Row="1"  Text="{Binding SelectedFoodItem.Name}"
-                    Style="{StaticResource PrimaryLabelHeader}"
-                   Margin="25,-85,0,0" />
-            <ImageButton Source="{FontImage FontFamily=FontAwesome, 
-                Glyph={x:Static helpers:IconFont.ArrowLeft}, Size=40,  Color=White}"
-                Grid.Row="0" HorizontalOptions="Start" Aspect="AspectFit"
-                VerticalOptions="Start" Margin="10,30" CornerRadius="20" Opacity="0.5" BackgroundColor="Silver" 
-                Clicked="ImageButton_Clicked"/>
-
-            <StackLayout Grid.Row="2" Spacing="10" Padding="10"
-                         VerticalOptions="Start">
-                <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Product ID: " FontSize="Subtitle"
-                            TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
-                           />
-                    <Label Text="{Binding SelectedFoodItem.ProductID}"
-                           FontSize="Subtitle"
-                            TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
-                          />
+        <Grid RowDefinitions="Auto,Auto,*,Auto" Margin="0">
+            <pancake:PancakeView CornerRadius="0,0,40,40"
+                            Grid.Row="0"
+                            Padding="0"
+                            VerticalOptions="FillAndExpand"
+                            HeightRequest="300"
+                            Shadow="{pancake:ShadowMarkup Color={StaticResource FrameBackground}, BlurRadius=30}"
+                            BackgroundColor="{StaticResource FrameBackground}">
+                
+                <Grid Padding="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <Image Source="{Binding SelectedFoodItem.ImageUrl, Mode=TwoWay}"  HeightRequest="300" Aspect="AspectFill" Margin="0"/>
+                    <Grid  Padding="0" Margin="0" VerticalOptions="Start">
+                        <Frame HorizontalOptions="Start"
+                               Margin="10,15,0,5"
+                               HasShadow="False"
+                               Padding="0"
+                               HeightRequest="30"
+                               WidthRequest="30"
+                               IsClippedToBounds="True"
+                               CornerRadius="15"
+                               BackgroundColor="{StaticResource PlaceholderColor}"
+                               VerticalOptions="Start">
+                            <ImageButton Source="leftarrow.png"
+                             Aspect="AspectFill"
+                                 Margin="5"
+                                 x:Name="BackButton"
+                                 Clicked="BackButton_Clicked"
+                                 Padding="0"
+                                 BackgroundColor="Transparent"
+                             />
+                        </Frame>
+                        <Frame HorizontalOptions="EndAndExpand"
+                               Margin="0,15,10,5"
+                               HasShadow="False"
+                               Padding="0"
+                               IsClippedToBounds="True"
+                               HeightRequest="30"
+                               WidthRequest="30"
+                               CornerRadius="15"
+                               BackgroundColor="{StaticResource PlaceholderColor}"
+                               VerticalOptions="Start">
+                            <ImageButton Source="heart.png"
+                             Aspect="AspectFill"
+                                 x:Name="LikeProduct"
+                                 Command="{Binding LikeProductCommand}"        
+                                 Margin="5"
+                                 Padding="0"
+                                 BackgroundColor="Transparent"
+                             />
+                        </Frame>
+                    </Grid>
+                </Grid>
+            </pancake:PancakeView>
+            <StackLayout Margin="0,30,0,0" Grid.Row="1" Orientation="Horizontal">
+                <StackLayout Margin="20,0,0,0" HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label Text="{Binding SelectedFoodItem.Name, Mode=TwoWay}" FontAttributes="Bold" FontSize="20" Style="{StaticResource PageHeader}" TextColor="{StaticResource TextColor}"/>
                 </StackLayout>
-
-                <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Product Name: " FontSize="Subtitle"
-                           TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
-                          />
-                    <Label Text="{Binding SelectedFoodItem.Name}"
-                           FontSize="Subtitle"
-                           TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
-                          />
-                </StackLayout>
-
-                <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Description: " FontSize="Subtitle"
-                           TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
-                            />
-                    <Label Text="{Binding SelectedFoodItem.Description}"
-                           FontSize="Subtitle"
-                           TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
-                           />
-                </StackLayout>
-
-                <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Rating: " FontSize="Subtitle"
-                           TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
-                           />
-                    <Label Text="{Binding SelectedFoodItem.Rating}"
-                           FontSize="Subtitle"
-                           TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
-                           />
-                </StackLayout>
-            </StackLayout>
-
-            <Grid Grid.Row="3" HorizontalOptions="Center">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-
-                <Button Text="-" FontSize="30" TextColor="White" CornerRadius="15" 
-                        BackgroundColor="{AppThemeBinding Light={StaticResource LightUpDownButtonColor}, Dark={StaticResource DarkUpDownButtonColor}}"
-                        Grid.Column="0"
-                        HorizontalOptions="End"
-                        Command="{Binding DecrementOrderCommand}" />
-
-                <Entry Text="{Binding TotalQuantity}" Grid.Column="1"
-                        TextColor="{DynamicResource PrimaryDarkTextColor}"
-                       HorizontalTextAlignment="Center"
-                       VerticalOptions="Center" FontSize="30"
-                        />
-
-                <pancake:PancakeView Grid.Column="1" CornerRadius="15,15,15,15"
-                                BackgroundColor="{AppThemeBinding Light={StaticResource LightCounterBackgroundColor}, Dark={StaticResource DarkCounterBackgroundColor}}" >
-                    <Entry Text="{Binding TotalQuantity}" Grid.Column="1"
-                       HorizontalTextAlignment="Center"
-                       VerticalOptions="Center" FontSize="30"
-                       WidthRequest="40"  
-                       BackgroundColor="Transparent"
-                       />
-                </pancake:PancakeView>
-
-                <Button Text="+" FontSize="30" TextColor="White" CornerRadius="15"
-                          BackgroundColor="{AppThemeBinding Light={StaticResource LightUpDownButtonColor}, Dark={StaticResource DarkUpDownButtonColor}}"
-                        Grid.Column="2"
-                        HorizontalOptions="Start"
-                        Command="{Binding IncrementOrderCommand}" />
-            </Grid>
-
-            <StackLayout Grid.Row="4">
-                <BoxView />
-                <StackLayout Orientation="Horizontal" >
-                    <pancake:PancakeView CornerRadius="20,20,20,20"
-                                     HorizontalOptions="Center">
-                        <Button Text="Add to Cart"
-                             BackgroundColor="{AppThemeBinding Light={StaticResource LightDefaultButtonColor}, Dark={StaticResource DarkDefaultButtonColor}}"      
-                            HorizontalOptions="Center"
-                            Command="{Binding AddToCartCommand}"
-                             Margin="15,0,0,0" 
-                                WidthRequest="150"
-                            HeightRequest="50" />
-                    </pancake:PancakeView>
-
-                    <pancake:PancakeView CornerRadius="20,20,20,20"
-                                     HorizontalOptions="EndAndExpand">
-                        <Button Text="View Cart"  
-                                 BackgroundColor="{AppThemeBinding Light={StaticResource LightDefaultButtonColor}, Dark={StaticResource DarkDefaultButtonColor}}" 
-                             HorizontalOptions="Center"
-                            Command="{Binding ViewCartCommand}"
-                                Margin="0,0,15,0" 
-                                WidthRequest="150"
-                            HeightRequest="50" />
-                    </pancake:PancakeView>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                    <Label Margin="0,0,20,0" FontAttributes="Bold" FontSize="20" Style="{StaticResource PageHeader}" TextColor="{StaticResource TextColor}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="$"/>
+                                <Span Text="{Binding SelectedFoodItem.Price, Mode=TwoWay}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
                 </StackLayout>
             </StackLayout>
-
-            <Button Text="Go To Home"
-                    Margin="15,0,15,0"
-                    HeightRequest="60"
-                     BackgroundColor="{AppThemeBinding Light={StaticResource LightInfoButtonColor}, Dark={StaticResource DarkInfoButtonColor}}"   
-                       Grid.Row="6"
-                        Command="{Binding HomeCommand}" />
-
-
+            <StackLayout Grid.Row="2" >
+                <ScrollView HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never">
+                    <Label Margin="20" TextColor="Gray" Text="{Binding SelectedFoodItem.Description, Mode=TwoWay}" FontSize="14" Style="{StaticResource SectionDetail}"/>
+                </ScrollView>
+            </StackLayout>
+            <StackLayout Grid.Row="3">
+                <Grid RowDefinitions="Auto,Auto">
+                    <Grid Grid.Row="0" Margin="10,0,0,30" HorizontalOptions="StartAndExpand">
+                        <StackLayout Padding="0" Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                            <StackLayout Margin="0" Padding="0" HorizontalOptions="Start" VerticalOptions="Center">
+                                <ImageButton 
+                                        Command="{Binding AddToCartCommand}"
+                                             Aspect="AspectFit"
+                                             BackgroundColor="{StaticResource PlaceholderColor}" 
+                                             HeightRequest="50" WidthRequest="50"
+                                             CornerRadius="25"
+                                             Source="plus.png"/>
+                            </StackLayout>
+                            <StackLayout Margin="30,10,0,0" Padding="0" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label
+                                             BackgroundColor="Transparent" 
+                                             HeightRequest="50" WidthRequest="50"
+                                             Text="3"
+                                             Style="{StaticResource PageHeader}"
+                                             TextColor="Black"/>
+                            </StackLayout>
+                            <StackLayout Margin="0" Padding="0" HorizontalOptions="End" VerticalOptions="Center">
+                                <ImageButton  
+                                        Command="{Binding AddToCartCommand}"
+                                             Aspect="AspectFit"
+                                             BackgroundColor="{StaticResource PlaceholderColor}"
+                                             HeightRequest="50" WidthRequest="50"
+                                             CornerRadius="25"
+                                             Source="minus.png"/>
+                            </StackLayout>
+                        </StackLayout>  
+                    </Grid>
+                    <Grid Grid.Row="1" ColumnDefinitions="*,Auto">
+                        <StackLayout Grid.Column="0" Padding="0" HeightRequest="50">
+                            <pancake:PancakeView Padding="0"  HeightRequest="50" Margin="10,0,0,10" CornerRadius="25" BackgroundColor="{StaticResource FrameBackground}">
+                                <Button Text="Check Out" x:Name="BayNowButton" Clicked="BayNowButton_Clicked" BackgroundColor="Transparent" Margin="5" TextColor="White" TextTransform="None" FontAttributes="Bold" />
+                            </pancake:PancakeView>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1">
+                            <Frame Margin="10,0,10,10"  BackgroundColor="{StaticResource PlaceholderColor}" HasShadow="False" Padding="0" HeightRequest="50" WidthRequest="50" CornerRadius="30">
+                                <ImageButton Margin="10"  x:Name="AddItemCartButton"
+                                        Command="{Binding AddToCartCommand}" Aspect="AspectFill" BackgroundColor="Transparent" HeightRequest="50" WidthRequest="50" Source="addcart.png"/>
+                            </Frame>
+                        </StackLayout>
+                    </Grid>
+                </Grid>
+            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -15,7 +15,7 @@ namespace DeliveryApp.Views
     public partial class ProductDetailsView : ContentPage
     {
         
-        public ProductDetailsView(FoodItem foodItem)
+        public ProductDetailsView(ProductItem foodItem)
         {
             InitializeComponent();
             BindingContext = new ProductDetailsViewModel(foodItem);
@@ -24,6 +24,16 @@ namespace DeliveryApp.Views
         private async void ImageButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
+        }
+
+        private void BackButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BayNowButton_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }
