@@ -1,0 +1,1450 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=SystemNative_StrErrorR
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_FStat2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ChMod
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LChflags
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LChflagsCanSetHiddenFlag
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_RmDir
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_UTime
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_UTimes
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_names
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_locale_country_code
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetDomainSocketSizes
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContextEx
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_GetUser
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=BrotliDecoderCreateInstance
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompressStream
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompress
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDestroyInstance
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderIsFinished
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCreateInstance
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderSetParameter
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompressStream
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderHasMoreOutput
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderDestroyInstance
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompress
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=xamarin_CGPoint__VNNormalizedFaceBoundingBoxPointForLandmarkPoint_Vector2_CGRect_nuint_nuint_string
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_CGPoint__VNImagePointForFaceLandmarkPoint_Vector2_CGRect_nuint_nuint_string
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_1
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_5
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_6
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_7
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_8
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_9
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_init_nsthread
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_os_log
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_original_working_directory_path
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_NVector3_IntPtr_CGSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_NVector3_IntPtr_CGSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_stret_NVector3_IntPtr_CGSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_stret_NVector3_IntPtr_CGSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_CGPoint_NMatrix4_IntPtr_CGSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_CGPoint_NMatrix4_IntPtr_CGSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_CGPoint_NMatrix4_IntPtr_CGSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_CGPoint_NMatrix4_IntPtr_CGSize
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_IntPtr_CGSize_nfloat_nfloat
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_IntPtr_CGSize_nfloat_nfloat
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_IntPtr_CGSize_nfloat_nfloat
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_IntPtr_CGSize_nfloat_nfloat
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4_NVector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4_NVector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix4_NVector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix4_NVector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NVector3_NVector3_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NVector3_NVector3_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_CGPoint_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_CGPoint_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_CGPoint_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_CGPoint_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4_NVector3_NVector3_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4_NVector3_NVector3_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_IntPtr_UIntPtr_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_UIntPtr_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_IntPtr_UIntPtr_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_IntPtr_UIntPtr_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_UIntPtr_IntPtr_UIntPtr_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_UIntPtr_IntPtr_UIntPtr_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i_int_int_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i_int_int_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i_int_int_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i_int_int_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_Vector2_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_Vector2_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSend_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSendSuper_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSend_stret_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSendSuper_stret_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSend_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSendSuper_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3d
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3d
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2d_Vector2d_Vector2i_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2d_Vector2d_Vector2i_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSend_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSendSuper_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_float_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_float_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKBox_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKBox_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_GKBox
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_GKBox
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKBox
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKBox
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_UIntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKQuad_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKQuad_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_GKQuad
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_GKQuad
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKQuad
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKQuad
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2_float_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2_float_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2_Vector2_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2_Vector2_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2_exception
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_ref_MPSImageHistogramInfo
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_ref_MPSImageHistogramInfo
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4d_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4d_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaternion_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaternion_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaterniond_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaterniond_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2d_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2d_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3d_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3d_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4d_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4d_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4d
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4d
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_MDLAxisAlignedBoundingBox_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_MDLAxisAlignedBoundingBox_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector2i_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector2i_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector2i_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector2i_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_bool_IntPtr_Vector2i_IntPtr_UIntPtr_IntPtr_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_bool_IntPtr_Vector2i_IntPtr_UIntPtr_IntPtr_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_IntPtr_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_IntPtr_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_float_IntPtr_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_float_IntPtr_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UIntPtr_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UIntPtr_Vector2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UIntPtr_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UIntPtr_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UIntPtr_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UIntPtr_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UIntPtr_Matrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UIntPtr_Matrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UIntPtr_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UIntPtr_NMatrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_int_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_int_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_bool_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_int_UInt32_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_int_UInt32_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_IntPtr_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_IntPtr_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2i_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2i_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_UIntPtr_UIntPtr_IntPtr_bool_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_UIntPtr_UIntPtr_IntPtr_bool_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_UIntPtr_UIntPtr_IntPtr_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_UIntPtr_UIntPtr_IntPtr_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_UIntPtr_UIntPtr_UIntPtr_IntPtr_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_UIntPtr_UIntPtr_UIntPtr_IntPtr_bool_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector2i_IntPtr_float_IntPtr_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector2i_IntPtr_float_IntPtr_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector2i_IntPtr_IntPtr_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector2i_IntPtr_IntPtr_IntPtr_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_IntPtr_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_IntPtr_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i_float_float_float_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i_float_float_float_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i_float_float_float_float_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i_float_float_float_float_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Matrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Matrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Matrix4_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Matrix4_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix4_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix4_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_IntPtr_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_IntPtr_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret_IntPtr_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret_IntPtr_Double
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_MDLAxisAlignedBoundingBox_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_MDLAxisAlignedBoundingBox_float
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector4i_bool_bool_bool_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector4i_bool_bool_bool_bool
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_MDLVoxelIndexExtent2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_MDLVoxelIndexExtent2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSend_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSendSuper_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSend_stret_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSendSuper_stret_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret_Vector4i
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Quaternion_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Quaternion_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Quaternion
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Quaternion
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2d_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2d_IntPtr
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2d
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2d
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__void_objc_msgSend_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__void_objc_msgSendSuper_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaternion
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaternion
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSend
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSendSuper
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSend_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSendSuper_stret
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix2
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix3
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix4
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextFieldColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextFieldFontThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextFieldTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MaterialComponentsVersionNumber
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MaterialComponentsVersionString
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCChipFieldDefaultMinTextFieldWidth
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCChipFieldDefaultContentEdgeInsets
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipField
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCContainerScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCActionSheetAction
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCActionSheetController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCActivityIndicator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCActivityIndicatorColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCActivityIndicatorTransition
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertAction
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertControllerThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertControllerView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBar
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarContainerViewController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarNavigationController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarViewController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBannerView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBaseCell
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBaseTextField
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBasicColorScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBasicFontScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomAppBarColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomAppBarView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomDrawerColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomDrawerPresentationController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomDrawerTransitionController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomDrawerViewController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomNavigationBar
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomNavigationBarColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomNavigationBarTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomSheetController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomSheetControllerShapeThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomSheetPresentationController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomSheetTransitionController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButton
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonBar
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonBarButton
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonBarColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonBarTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonShapeThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonTitleColorAccessibilityMutator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCard
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardCollectionCell
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardsColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardsShapeThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipCollectionViewCell
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipCollectionViewFlowLayout
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewFontThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewShapeThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=kDeselectedCellAccessibilityHintKey
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=kSelectedCellAccessibilityHintKey
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCollectionViewCellStyleCardSectionInset
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewCell
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewFlowLayout
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewLayoutAttributes
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCellDefaultOneLineHeight
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCellDefaultOneLineWithAvatarHeight
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCellDefaultThreeLineHeight
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCellDefaultTwoLineHeight
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewTextCell
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCContainedButtonColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCContainedButtonThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCornerTreatment
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCurvedCornerTreatment
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCurvedRectShapeGenerator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCutCornerTreatment
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCDialogPresentationController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCDialogTransitionController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCEdgeTreatment
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightAccessibilityMutator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightFontThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=kMDCFeatureHighlightOuterHighlightAlpha
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightViewController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFilledTextFieldColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlatButton
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlexibleHeaderColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlexibleHeaderContainerViewController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlexibleHeaderView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlexibleHeaderViewController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFloatingActionButtonThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFloatingButton
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFloatingButtonColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFloatingButtonShapeThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFontScaler
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCHeaderStackView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCHeaderStackViewColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCIcons
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCInkColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCInkGestureRecognizer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCInkTouchController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCInkView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCIntrinsicHeightTextView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCKeyboardWatcherKeyboardWillChangeFrameNotification
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCKeyboardWatcherKeyboardWillHideNotification
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCKeyboardWatcherKeyboardWillShowNotification
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCKeyboardWatcher
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCLibraryInfo
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCListColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCListScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCListThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCListTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCMaskedTransitionController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCMultilineTextField
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNavigationBar
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNavigationBarColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNavigationBarTextColorAccessibilityMutator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNavigationBarTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNumericValueLabel
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOutlinedButtonColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOutlinedButtonThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOutlinedTextFieldColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOverlayObserver
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOverlayWindow
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPageControl
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPageControlColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteAccent100Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteAccent200Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteAccent400Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteAccent700Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint100Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint200Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint300Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint400Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint500Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint50Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint600Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint700Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint800Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint900Name
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPalette
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPathGenerator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPillShapeGenerator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCProgressView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCProgressViewColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCRaisedButton
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCRectangleShapeGenerator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCRippleTouchController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCRippleView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCRoundedCornerTreatment
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSelfSizingStereoCell
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSemanticColorScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShadowLayer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShadowMetrics
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShapeCategory
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShapedShadowLayer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShapedView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShapeScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSlantedRectShapeGenerator
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSlider
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSliderColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarFontThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarManager
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCSnackbarMessageBoldAttributeName
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCSnackbarMessageDurationMax
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarMessage
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarMessageAction
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarMessageView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCStatefulRippleView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSystemFontLoader
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBar
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarFontThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarIndicatorAttributes
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarTypographyThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarUnderlineIndicatorTemplate
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCTabBarViewControllerAnimationDuration
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarViewController
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextButtonColorThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextButtonThemer
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCTextFieldTextDidSetTextNotification
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCTextInputDidToggleEnabledNotification
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextField
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputAllCharactersCounter
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputBorderView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCTextInputControllerBaseDefaultBorderRadius
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerBase
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerFilled
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerFullWidth
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerLegacyDefault
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerLegacyFullWidth
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerOutlined
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerOutlinedTextArea
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerUnderline
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputUnderlineView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCThumbTrack
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCThumbView
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTonalColorScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTonalPalette
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTriangleEdgeTreatment
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTypography
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTypographyScheme
+	/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialComponents.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

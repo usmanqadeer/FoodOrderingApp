@@ -13,7 +13,7 @@
 namespace DeliveryApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CategoryView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/CategoryView.xaml")]
     public partial class CategoryView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

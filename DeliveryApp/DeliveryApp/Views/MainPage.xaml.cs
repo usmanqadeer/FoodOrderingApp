@@ -1,8 +1,6 @@
 ﻿using DeliveryApp.Models;
 using DeliveryApp.ViewModels;
 using System;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Timers;
 using Xamarin.Essentials;
 using Xamarin.Forms;

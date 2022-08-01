@@ -13,7 +13,7 @@
 namespace DeliveryApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -23,14 +23,14 @@ namespace DeliveryApp.Views {
         private global::Xamarin.Forms.SearchBar doctorsSearchBar;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::CarouselView.FormsPlugin.Abstractions.CarouselViewControl cvBanners;
+        private global::Xamarin.Forms.CarouselView cvBanners;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             LogoutButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ToolbarItem>(this, "LogoutButton");
             doctorsSearchBar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.SearchBar>(this, "doctorsSearchBar");
-            cvBanners = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::CarouselView.FormsPlugin.Abstractions.CarouselViewControl>(this, "cvBanners");
+            cvBanners = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CarouselView>(this, "cvBanners");
         }
     }
 }

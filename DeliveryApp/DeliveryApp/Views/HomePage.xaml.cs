@@ -11,7 +11,7 @@ namespace DeliveryApp.Views
         public HomePage()
         {
             InitializeComponent();
-           // Routing.RegisterRoute(nameof(MainPage),typeof(MainPage));
+            //Routing.RegisterRoute(nameof(MainPage),typeof(MainPage));
         }
 
         private async void ImageButton_Clicked(object sender, System.EventArgs e)

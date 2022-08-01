@@ -13,7 +13,7 @@
 namespace DeliveryApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\LogoutView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/LogoutView.xaml")]
     public partial class LogoutView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -20,13 +20,13 @@
             <StackLayout Margin="0" Padding="0"  VerticalOptions="FillAndExpand">
                 <StackLayout Margin="0" Padding="0">
                     <Grid RowDefinitions="Auto,Auto,Auto,*">
-                        <StackLayout Margin="0,20,0,0" Grid.Row="0" HorizontalOptions="Start" Spacing="0">
+                        <StackLayout Margin="0,20,0,0" Grid.Row="0" HorizontalOptions="Start" Spacing="0" BackgroundColor="{StaticResource Background}">
                             <Grid ColumnDefinitions="*,Auto">
                                 <Frame Margin="15,0,0,0" Grid.Column="0"
                                                IsClippedToBounds="True"
                                                Padding="0"
-                                               BorderColor="{StaticResource PlaceholderColor}"
-                                               HasShadow="True"
+                                               BorderColor="{StaticResource FrameBackground}"
+                                               HasShadow="False"
                                                BackgroundColor="{StaticResource Background}"
                                                HeightRequest="50"
                                                CornerRadius="16" >
@@ -37,6 +37,8 @@
                                                         FontSize="17"
                                                         TextColor="Black"
                                                         HeightRequest="50"
+                                                        Margin="-7,0,-7,0"
+                                                        BackgroundColor="{StaticResource Background}"
                                                         Text="{Binding SearchedText}"
                                                         SearchCommand="{Binding SearchBarCommand}">
                                         <SearchBar.Behaviors>
@@ -45,7 +47,7 @@
                                     </SearchBar>
                                 </Frame>
                                 <StackLayout Margin="10,0,15,0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center">
-                                    <Frame HeightRequest="50" WidthRequest="50" Padding="0" CornerRadius="16" BackgroundColor="{StaticResource PlaceholderColor}">
+                                    <Frame HeightRequest="50" WidthRequest="50" Padding="0" HasShadow="False" CornerRadius="16" BackgroundColor="{StaticResource PlaceholderColor}">
                                         <ImageButton Margin="10" Source="filter.png"
                                                          HeightRequest="20"
                                                          WidthRequest="20"
@@ -59,23 +61,15 @@
                         </StackLayout>
                         <StackLayout Grid.Row="1">
                             <pv:PancakeView  Padding="0" Margin="10,10,10,5" CornerRadius="30" BackgroundColor="{StaticResource FrameBackground}"  HeightRequest="120" HorizontalOptions="Center">
-                                <cv:CarouselViewControl  x:Name="cvBanners" ShowIndicators="true" IndicatorsShape="Circle" IndicatorsTintColor="LightGray"
-                                    CurrentPageIndicatorTintColor="Red" Orientation="Horizontal" InterPageSpacing="0" 
-                                    HeightRequest="120" ItemsSource="{Binding LatestItems}" HorizontalOptions="FillAndExpand" 
-                                    VerticalOptions="StartAndExpand" AnimateTransition="True">
-                                    <cv:CarouselViewControl.ItemTemplate>
+                               <CarouselView x:Name="cvBanners" ItemsSource="{Binding LatestItems}">
+                                    <CarouselView.ItemTemplate>
                                         <DataTemplate>
-                                            <Grid Padding="0" Margin="0">
-                                                <Image
-                                                        Source="{Binding ImageUrl}" 
-                                                        Margin="0"
-                                                        Aspect="AspectFill" 
-                                                        VerticalOptions="FillAndExpand"
-                                                        HorizontalOptions="FillAndExpand"/>
-                                            </Grid>
+                                            <StackLayout>
+                                                <Image Aspect="AspectFill" Source="{Binding ImageUrl}"/>
+                                            </StackLayout>
                                         </DataTemplate>
-                                    </cv:CarouselViewControl.ItemTemplate>
-                                </cv:CarouselViewControl>
+                                    </CarouselView.ItemTemplate>
+                                </CarouselView>
                             </pv:PancakeView>
                         </StackLayout>
                         <StackLayout Grid.Row="2">
@@ -91,7 +85,7 @@
                                                            Margin="0,0,10,0"
                                                            Padding="0"
                                                            BackgroundColor="{StaticResource PlaceholderColor}"
-                                                           HasShadow="True">
+                                                           HasShadow="False">
                                                 <Frame.GestureRecognizers>
                                                     <TapGestureRecognizer Tapped="SelectType"/>
                                                 </Frame.GestureRecognizers>
@@ -132,7 +126,8 @@
                             <CollectionView  HorizontalScrollBarVisibility="Never"
                                                     ItemsSource="{Binding LatestItems}"
                                                     Margin="5,0,5,0"
-                                                    HeightRequest="380">
+                                                    VerticalScrollBarVisibility="Never"
+                                                    >
                                 <CollectionView.ItemsLayout>
                                     <GridItemsLayout Orientation="Vertical"
                                                     Span="2" />
@@ -141,9 +136,12 @@
 
                                     <DataTemplate>
                                         <StackLayout Padding="2,5,10,5">
-                                            <Frame Padding="20,10,20,10" WidthRequest="200" HeightRequest="200" VerticalOptions="FillAndExpand" CornerRadius="20" HorizontalOptions="Start" HasShadow="False" xct:ShadowEffect.Color="Silver" xct:ShadowEffect.OffsetY="10">
+                                            <Frame Padding="20,10,20,10" WidthRequest="200" HeightRequest="200"
+                                                   VerticalOptions="FillAndExpand" CornerRadius="20" HorizontalOptions="Start"
+                                                   HasShadow="False" xct:ShadowEffect.Color="Silver" xct:ShadowEffect.OffsetY="10">
                                                 <Grid RowDefinitions="*,Auto,Auto" ColumnDefinitions="*,Auto">
-                                                    <Frame  Grid.ColumnSpan="2" Grid.Row="0" IsClippedToBounds="True" CornerRadius="25" HasShadow="False" Margin="0" Padding="0" xct:ShadowEffect.Color="Silver" xct:ShadowEffect.OffsetY="12">
+                                                    <Frame  Grid.ColumnSpan="2" Grid.Row="0" IsClippedToBounds="True" CornerRadius="25"
+                                                            HasShadow="False" Margin="0" Padding="0" xct:ShadowEffect.Color="Silver" xct:ShadowEffect.OffsetY="12">
                                                         <Frame.GestureRecognizers>
                                                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
                                                         </Frame.GestureRecognizers>

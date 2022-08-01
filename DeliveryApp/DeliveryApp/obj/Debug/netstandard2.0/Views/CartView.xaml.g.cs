@@ -13,7 +13,7 @@
 namespace DeliveryApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CartView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/CartView.xaml")]
     public partial class CartView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

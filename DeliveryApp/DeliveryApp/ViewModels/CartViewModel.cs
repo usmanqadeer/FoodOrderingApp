@@ -4,6 +4,7 @@ using DeliveryApp.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Reactive.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,23 +36,31 @@ namespace DeliveryApp.ViewModels
 
         private void LoadItems()
         {
-            var cn = DependencyService.Get<ISQLite>().GetConnection();
-            var items = cn.Table<CartItem>().ToList();
-            CartItems.Clear();
-            foreach(var item in items)
+            try
             {
-                CartItems.Add(new UserCartItem
-                {
-                    CartItemId = item.CartItemId,
-                    ProductId = item.ProductId,
-                    ProductName = item.ProductName,
-                    Price = item.Price, 
-                    Quantity = item.Quantity,
-                    Cost = item.Price * item.Quantity
 
-                     
-                }) ;
-                TotalCost += item.Price * item.Quantity;
+                var cn = DependencyService.Get<ISQLite>().GetConnection();
+                var items = cn.Table<CartItem>().ToList();
+                CartItems.Clear();
+                foreach (var item in items)
+                {
+                    CartItems.Add(new UserCartItem
+                    {
+                        CartItemId = item.CartItemId,
+                        ProductId = item.ProductId,
+                        ProductName = item.ProductName,
+                        Price = item.Price,
+                        Quantity = item.Quantity,
+                        Cost = item.Price * item.Quantity
+
+
+                    });
+                    TotalCost += item.Price * item.Quantity;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
             }
             
         }

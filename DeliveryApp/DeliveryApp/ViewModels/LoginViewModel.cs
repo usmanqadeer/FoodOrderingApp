@@ -119,7 +119,7 @@ namespace DeliveryApp.ViewModels
                 if (Result)
                 {
                     Preferences.Set("Username", Username);
-                    await Shell.Current.GoToAsync($"//{nameof(MainPage)}");
+                    await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
                 }
                 else
                 {

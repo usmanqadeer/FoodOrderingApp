@@ -6,8 +6,8 @@
              mc:Ignorable="d" Title="My Shop"
              Shell.NavBarHasShadow="False"
              Shell.TitleColor="{StaticResource FrameBackground}"
-             Shell.TabBarUnselectedColor="Gray"
              Shell.TabBarBackgroundColor="{StaticResource Background}"
+             Shell.TabBarUnselectedColor="{StaticResource PlaceholderColor}"
              FlyoutIcon="menu"
              Shell.ForegroundColor="{StaticResource FrameBackground}"
              Shell.BackgroundColor="{StaticResource Background}"
@@ -16,6 +16,7 @@
     <ShellItem Route="AutenticationPage" FlyoutItemIsVisible="False">
         <ShellContent ContentTemplate="{DataTemplate views:AutenticationPage}"/>
     </ShellItem>
+   
     <ShellItem Route="MainPage" FlyoutItemIsVisible="False">
         <ShellContent ContentTemplate="{DataTemplate views:MainPage}"/>
     </ShellItem>
@@ -23,7 +24,7 @@
         <ShellContent ContentTemplate="{DataTemplate views:HomePage}"/>
     </ShellItem>
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <Tab Title="Home" Icon="home.png">
+        <Tab Title="Home" Icon="heart.png" >
             <ShellContent>
                 <views:MainPage/>
             </ShellContent>
@@ -46,7 +47,7 @@
     </FlyoutItem>
     <Shell.FlyoutHeader>
         <StackLayout Orientation="Vertical" Padding="0" Margin="0" BackgroundColor="{StaticResource FrameBackground}">
-            <Frame Margin="0,20,0,0" HeightRequest="80" HorizontalOptions="Center" Padding="0" WidthRequest="80" CornerRadius="40" HasShadow="False">
+            <Frame Margin="{OnPlatform Android='0,20,0,0', iOS='0,40,0,0'}" HeightRequest="80" IsClippedToBounds="True" HorizontalOptions="Center" Padding="0" WidthRequest="80" CornerRadius="40" HasShadow="False">
                 <Image Margin="0" Aspect="AspectFill"  HeightRequest="80" WidthRequest="80" Source="https://img.freepik.com/free-photo/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt_273609-16959.jpg?w=2000"/>
             </Frame>
             <Label Text="Welcome" Margin="0,-5,0,0" FontSize="18" Padding="0" HorizontalOptions="CenterAndExpand" Style="{StaticResource OnboardingHeader}"/>

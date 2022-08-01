@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{46C078ED-9B5A-42A7-9806-0FE0304197D1}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DeliveryApp" expanded="True">
+            <Node name="DeliveryApp" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DeliveryApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1B1A7BA1-DFEE-4842-9A90-E47747BD00A8" />
+  <MonoDevelop.Ide.ItemProperties.DeliveryApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+</Properties>

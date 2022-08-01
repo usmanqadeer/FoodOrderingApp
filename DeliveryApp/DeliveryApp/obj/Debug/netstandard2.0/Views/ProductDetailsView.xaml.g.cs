@@ -13,7 +13,7 @@
 namespace DeliveryApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ProductDetailsView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ProductDetailsView.xaml")]
     public partial class ProductDetailsView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

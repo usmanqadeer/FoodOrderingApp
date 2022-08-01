@@ -2,15 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "CarouselView.FormsPlugin/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll": {}
-        }
-      },
       "FirebaseDatabase.net/4.0.7": {
         "type": "package",
         "dependencies": {
@@ -456,28 +447,6 @@
     }
   },
   "libraries": {
-    "CarouselView.FormsPlugin/6.0.0": {
-      "sha512": "6O+/NNod+u5bO8EwNJOq2D2bHfV0NdarAUjrIBn4q6bsxgtX+ONo4JmKL2yBtRmKizoDOjM+r5GwO9ewePTGZg==",
-      "type": "package",
-      "path": "carouselview.formsplugin/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "carouselview.formsplugin.6.0.0.nupkg.sha512",
-        "carouselview.formsplugin.nuspec",
-        "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll",
-        "lib/MonoAndroid/CarouselView.FormsPlugin.Droid.dll",
-        "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll",
-        "lib/UAP10/CarouselView.FormsPlugin.UWP.dll",
-        "lib/UAP10/CarouselView.FormsPlugin.UWP.pri",
-        "lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml",
-        "lib/UAP10/FlipViewControl.xbf",
-        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll",
-        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
-        "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll",
-        "lib/portable-net45+netcore45/CarouselView.FormsPlugin.Abstractions.dll"
-      ]
-    },
     "FirebaseDatabase.net/4.0.7": {
       "sha512": "yj8J5al66pCXRibNsK0K1wB1ZsPeCJCnwRVfwCcd6ZQ5tbwouObt0hgp+LmzKY90bLfQJuwmnLpKzVYGwD/6xA==",
       "type": "package",
@@ -2065,7 +2034,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "CarouselView.FormsPlugin >= 6.0.0",
       "FirebaseDatabase.net >= 4.0.7",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.CommunityToolkit >= 2.0.4",
@@ -2077,26 +2045,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\": {}
+    "/Users/admin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FoodOrderingApp\\DeliveryApp\\DeliveryApp\\DeliveryApp.csproj",
+      "projectUniqueName": "/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/DeliveryApp.csproj",
       "projectName": "DeliveryApp",
-      "projectPath": "D:\\FoodOrderingApp\\DeliveryApp\\DeliveryApp\\DeliveryApp.csproj",
-      "packagesPath": "C:\\Users\\Al Faisal Computers\\.nuget\\packages\\",
-      "outputPath": "D:\\FoodOrderingApp\\DeliveryApp\\DeliveryApp\\obj\\",
+      "projectPath": "/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/DeliveryApp.csproj",
+      "packagesPath": "/Users/admin/.nuget/packages/",
+      "outputPath": "/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Al Faisal Computers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/admin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2115,10 +2081,6 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
-          "CarouselView.FormsPlugin": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          },
           "FirebaseDatabase.net": {
             "target": "Package",
             "version": "[4.0.7, )"
@@ -2164,7 +2126,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
       }
     }
   }

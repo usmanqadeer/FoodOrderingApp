@@ -13,7 +13,7 @@
 namespace DeliveryApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SearchResultView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/SearchResultView.xaml")]
     public partial class SearchResultView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
