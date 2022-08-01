@@ -27,6 +27,7 @@ D:/FoodOrderingApp/DeliveryApp/DeliveryApp/obj/Debug/netstandard2.0/ref/Delivery
 /Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/bin/Debug/netstandard2.0/DeliveryApp.dll
 /Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/bin/Debug/netstandard2.0/ref/DeliveryApp.dll
 /Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/bin/Debug/netstandard2.0/DeliveryApp.pdb
+/Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/obj/Debug/netstandard2.0/DeliveryApp.csproj.AssemblyReference.cache
 /Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/obj/Debug/netstandard2.0/DeliveryApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/admin/Desktop/FoodOrderingApp/DeliveryApp/DeliveryApp/obj/Debug/netstandard2.0/Views/AutenticationPage.xaml.g.cs

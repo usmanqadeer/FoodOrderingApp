@@ -59,9 +59,14 @@
                                 </StackLayout>
                             </Grid>
                         </StackLayout>
-                        <Grid Grid.Row="1" RowDefinitions="*">
-                            <pv:PancakeView Grid.Row="0" Padding="0" Margin="10,10,10,5" CornerRadius="30"  HeightRequest="120" HorizontalOptions="Center">
-                               <CarouselView x:Name="cvBanners" IndicatorView="SliderIndicator" ItemsSource="{Binding LatestItems}">
+                        <Grid Grid.Row="1">
+                            <pv:PancakeView  Padding="0"
+                                             Margin="10,10,10,5"
+                                             CornerRadius="30"
+                                             HeightRequest="120"
+                                             HorizontalOptions="Center">
+                                     <CarouselView x:Name="cvBanners"
+                                             ItemsSource="{Binding LatestItems}">
                                     <CarouselView.ItemTemplate>
                                         <DataTemplate>
                                             <StackLayout Orientation="Vertical">
@@ -72,15 +77,8 @@
                                     </CarouselView.ItemTemplate>
                                 </CarouselView>
                             </pv:PancakeView>
-                            <IndicatorView HorizontalOptions="Center"
-                                           VerticalOptions="EndAndExpand"
-                                           Margin="0,0,0,20"
-                                           Grid.Row="0"
-                                           IndicatorSize="8"
-                                           SelectedIndicatorColor="{StaticResource Background}"
-                                           x:Name="SliderIndicator"
-                                           IndicatorColor="Red" />
                         </Grid>
+
                         <StackLayout Grid.Row="2">
                             <ScrollView  Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
                                 <StackLayout Orientation="Horizontal" Spacing="0" 
