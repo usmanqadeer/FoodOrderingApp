@@ -24,7 +24,7 @@
         <ShellContent ContentTemplate="{DataTemplate views:HomePage}"/>
     </ShellItem>
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <Tab Title="Home" Icon="heart.png" >
+        <Tab Title="Home" Icon="home.png" >
             <ShellContent>
                 <views:MainPage/>
             </ShellContent>

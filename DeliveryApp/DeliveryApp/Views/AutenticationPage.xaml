@@ -14,7 +14,7 @@
              x:Class="DeliveryApp.Views.AutenticationPage">
    
     <ContentPage.Content>
-        <Grid RowDefinitions="0.5*,*,Auto">
+        <Grid RowDefinitions="0.4*,*,Auto">
             <yammy:PancakeView 
                                Grid.Row="0"
                                Padding="0"

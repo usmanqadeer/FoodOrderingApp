@@ -1,10 +1,19 @@
 ﻿<Properties StartupConfiguration="{46C078ED-9B5A-42A7-9806-0FE0304197D1}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeliveryApp/DeliveryApp/Views/MainPage.xaml">
+    <Files>
+      <File FileName="DeliveryApp/DeliveryApp/Views/MainPage.xaml" Line="77" Column="59" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DeliveryApp" expanded="True">
-            <Node name="DeliveryApp" expanded="True" />
+            <Node name="DeliveryApp" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="MainPage.xaml" selected="True" />
+              </Node>
+            </Node>
+            <Node name="DeliveryApp.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -13,13 +22,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DeliveryApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1B1A7BA1-DFEE-4842-9A90-E47747BD00A8" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.ItemProperties.DeliveryApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.DeliveryApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1B1A7BA1-DFEE-4842-9A90-E47747BD00A8" Xamarin.HotReload.DebuggerTimeoutException.DeliveryApp.iOS.HideInfoBar="True" />
 </Properties>

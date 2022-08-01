@@ -39,6 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
+
     <EmbeddedResource Update="Views\AutenticationPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
